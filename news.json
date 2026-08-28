@@ -1,1 +1,522 @@
-{"updated": "", "categories": {}}
+{
+ "updated": "2026-08-29T01:11:16+08:00",
+ "categories": {
+  "tech": [
+   {
+    "title": "开学季 | 这些软件和服务的教育优惠，能帮你省下不少钱",
+    "link": "https://sspai.com/post/68227",
+    "date": "Wed, 26 Aug 2026",
+    "img": "",
+    "src": "少数派"
+   },
+   {
+    "title": "新玩意 250｜少数派的编辑们最近买了啥？",
+    "link": "https://sspai.com/post/113905",
+    "date": "Thu, 27 Aug 2026",
+    "img": "",
+    "src": "少数派"
+   },
+   {
+    "title": "日常使用 Linux 的第六个年头，这些经验希望能打消你的顾虑",
+    "link": "https://sspai.com/post/89194",
+    "date": "Thu, 27 Aug 2026",
+    "img": "",
+    "src": "少数派"
+   },
+   {
+    "title": "来自 1997 年的迷你笔记本电脑，东芝 Libretto 50M 怀旧手记",
+    "link": "https://sspai.com/post/113222",
+    "date": "Thu, 27 Aug 2026",
+    "img": "",
+    "src": "少数派"
+   },
+   {
+    "title": "派早报：Apple 调整妙控键盘的键帽符号、闪迪推出宝可梦纪念款产品等",
+    "link": "https://sspai.com/post/113873",
+    "date": "Thu, 27 Aug 2026",
+    "img": "",
+    "src": "少数派"
+   },
+   {
+    "title": "Meta将支付 170 亿美元和解儿童隐私保护诉讼，将限制青少年在特定时间访问社媒",
+    "link": "https://www.solidot.org/story?sid=85215",
+    "date": "Thu, 27 Aug 2026",
+    "img": "",
+    "src": "Solidot"
+   },
+   {
+    "title": "NASA 准备本周日发射罗曼太空望远镜",
+    "link": "https://www.solidot.org/story?sid=85214",
+    "date": "Thu, 27 Aug 2026",
+    "img": "",
+    "src": "Solidot"
+   },
+   {
+    "title": "亚马逊 AI 训练设施员工谈内部工作",
+    "link": "https://www.solidot.org/story?sid=85213",
+    "date": "Thu, 27 Aug 2026",
+    "img": "",
+    "src": "Solidot"
+   },
+   {
+    "title": "亚马逊 Mechanical Turk 将于 9 月 30 日关闭",
+    "link": "https://www.solidot.org/story?sid=85212",
+    "date": "Thu, 27 Aug 2026",
+    "img": "",
+    "src": "Solidot"
+   },
+   {
+    "title": "LibreOffice 26.8 释出",
+    "link": "https://www.solidot.org/story?sid=85211",
+    "date": "Thu, 27 Aug 2026",
+    "img": "",
+    "src": "Solidot"
+   },
+   {
+    "title": "Apple Maps 加入广告",
+    "link": "https://www.solidot.org/story?sid=85210",
+    "date": "Thu, 27 Aug 2026",
+    "img": "",
+    "src": "Solidot"
+   },
+   {
+    "title": "中尼边境泥石流灾害逾 1300 人失踪",
+    "link": "https://www.solidot.org/story?sid=85209",
+    "date": "Thu, 27 Aug 2026",
+    "img": "",
+    "src": "Solidot"
+   },
+   {
+    "title": "亚马逊收购开源数据库 DuckDB 开发团队",
+    "link": "https://www.solidot.org/story?sid=85208",
+    "date": "Thu, 27 Aug 2026",
+    "img": "",
+    "src": "Solidot"
+   },
+   {
+    "title": "Red Hat 卖了，GitHub 卖了，Hugging Face，据报道也要卖给英伟达了",
+    "link": "https://www.oschina.net/news/502160/oschina-futurex",
+    "date": "Thu, 27 Aug 2026",
+    "img": "",
+    "src": "开源中国"
+   },
+   {
+    "title": "Java Web 服务器 wastnet 路由开发实战",
+    "link": "https://www.oschina.net/news/502159",
+    "date": "Thu, 27 Aug 2026",
+    "img": "",
+    "src": "开源中国"
+   },
+   {
+    "title": "无远弗届，驭光而至，通用代码生成器：光船尝鲜版，蛋糕船示例生成演示",
+    "link": "https://www.oschina.net/news/502158",
+    "date": "Thu, 27 Aug 2026",
+    "img": "",
+    "src": "开源中国"
+   },
+   {
+    "title": "以后在 Linux 上打包，一句话就行",
+    "link": "https://www.oschina.net/news/502157",
+    "date": "Thu, 27 Aug 2026",
+    "img": "",
+    "src": "开源中国"
+   },
+   {
+    "title": "Agent 协作工作空间 Lody 开源：共享、隔离与持久化",
+    "link": "https://www.oschina.net/news/502156/lody-is-now-open-source",
+    "date": "Thu, 27 Aug 2026",
+    "img": "",
+    "src": "开源中国"
+   },
+   {
+    "title": "kkRepo 1.0.0 正式发布，新增 R/CRAN、Go Hosted 和多套 UI 主题",
+    "link": "https://www.oschina.net/news/502155",
+    "date": "Thu, 27 Aug 2026",
+    "img": "",
+    "src": "开源中国"
+   },
+   {
+    "title": "SamWaf v1.3.24 开源、轻量级、私有化部署网站防火墙",
+    "link": "https://www.oschina.net/news/502154",
+    "date": "Thu, 27 Aug 2026",
+    "img": "",
+    "src": "开源中国"
+   },
+   {
+    "title": "MooTool Next 1.1.3 发布！全新重写，带来更现代的界面与多窗口体验",
+    "link": "https://www.oschina.net/news/502152",
+    "date": "Thu, 27 Aug 2026",
+    "img": "",
+    "src": "开源中国"
+   },
+   {
+    "title": "Tailscale 开源 Tailcat：像 netcat 一样用，加密 + NAT 穿透，不需要账号",
+    "link": "https://www.oschina.net/news/502151",
+    "date": "Thu, 27 Aug 2026",
+    "img": "",
+    "src": "开源中国"
+   },
+   {
+    "title": "AWS 收购 DuckLabs：数据库界的“MIT 许可保卫战”",
+    "link": "https://www.oschina.net/news/502150/ducklabs-to-join-aws",
+    "date": "Thu, 27 Aug 2026",
+    "img": "",
+    "src": "开源中国"
+   },
+   {
+    "title": "英伟达 130 亿美元虎视 Hugging Face，开源 AI 的“中立社区”要沦陷了？",
+    "link": "https://www.oschina.net/news/502149/nvidia-in-talks-to-buy-hugging-face-13-billion-dollars",
+    "date": "Thu, 27 Aug 2026",
+    "img": "",
+    "src": "开源中国"
+   },
+   {
+    "title": "本周看什么 | 最近值得一看的 10 部作品",
+    "link": "https://sspai.com/post/113944",
+    "date": "Fri, 28 Aug 2026",
+    "img": "",
+    "src": "少数派"
+   },
+   {
+    "title": "开学季 | 学习不止在课堂：这些方法和技巧帮你做好知识管理",
+    "link": "https://sspai.com/post/68623",
+    "date": "Fri, 28 Aug 2026",
+    "img": "",
+    "src": "少数派"
+   },
+   {
+    "title": "全球首款阔直板探索计划：华为 Pura X View 新品有奖体验",
+    "link": "https://sspai.com/post/113883",
+    "date": "Fri, 28 Aug 2026",
+    "img": "",
+    "src": "少数派"
+   },
+   {
+    "title": "桌面升级，灯也要跟着进化：明基 iScreenBar 与 ScreenBar Max 体验",
+    "link": "https://sspai.com/post/113909",
+    "date": "Fri, 28 Aug 2026",
+    "img": "",
+    "src": "少数派"
+   },
+   {
+    "title": "派早报：智谱开源 GLM-5.3-Flash 原生多模态模型等",
+    "link": "https://sspai.com/post/113922",
+    "date": "Fri, 28 Aug 2026",
+    "img": "",
+    "src": "少数派"
+   },
+   {
+    "title": "一次性纸杯会释放大量微塑料",
+    "link": "https://www.solidot.org/story?sid=85225",
+    "date": "Fri, 28 Aug 2026",
+    "img": "",
+    "src": "Solidot"
+   },
+   {
+    "title": "无人机拍下了引发中尼边境致命泥石流的冰川崩塌",
+    "link": "https://www.solidot.org/story?sid=85224",
+    "date": "Fri, 28 Aug 2026",
+    "img": "",
+    "src": "Solidot"
+   },
+   {
+    "title": "美国将意大利安全托管服务商列入恐怖分子名单",
+    "link": "https://www.solidot.org/story?sid=85223",
+    "date": "Fri, 28 Aug 2026",
+    "img": "",
+    "src": "Solidot"
+   },
+   {
+    "title": "德国 Sovereign Tech 基金资助 Flatpak 逾 50 万欧元",
+    "link": "https://www.solidot.org/story?sid=85222",
+    "date": "Fri, 28 Aug 2026",
+    "img": "",
+    "src": "Solidot"
+   },
+   {
+    "title": "IBM 推出双指令集处理器",
+    "link": "https://www.solidot.org/story?sid=85221",
+    "date": "Fri, 28 Aug 2026",
+    "img": "",
+    "src": "Solidot"
+   },
+   {
+    "title": "法国法庭认定辐射与空乘罹患乳腺癌相关",
+    "link": "https://www.solidot.org/story?sid=85220",
+    "date": "Fri, 28 Aug 2026",
+    "img": "",
+    "src": "Solidot"
+   },
+   {
+    "title": "Haiku R1/beta6 释出",
+    "link": "https://www.solidot.org/story?sid=85219",
+    "date": "Fri, 28 Aug 2026",
+    "img": "",
+    "src": "Solidot"
+   },
+   {
+    "title": "Google 要求 Android 应用开发商降低内存占用",
+    "link": "https://www.solidot.org/story?sid=85218",
+    "date": "Fri, 28 Aug 2026",
+    "img": "",
+    "src": "Solidot"
+   },
+   {
+    "title": "气候变暖放大东太平洋的厄尔尼诺变率",
+    "link": "https://www.solidot.org/story?sid=85217",
+    "date": "Fri, 28 Aug 2026",
+    "img": "",
+    "src": "Solidot"
+   },
+   {
+    "title": "一名微软工程师一个月的 AI 支出高达 2.8 万美元",
+    "link": "https://www.solidot.org/story?sid=85216",
+    "date": "Fri, 28 Aug 2026",
+    "img": "",
+    "src": "Solidot"
+   },
+   {
+    "title": "微软试图安抚内部员工：数据中心能对社会产生积极影响",
+    "link": "https://www.ithome.com/0/995/822.htm",
+    "date": "Fri, 28 Aug 2026",
+    "img": "https://img.ithome.com/newsuploadfiles/2026/4/16288796-cc16-4d74-aa08-058ce0acf14a.jpg?x-bce-process=image/format,f_auto/quality,q_75",
+    "src": "IT之家"
+   },
+   {
+    "title": "泄露文件催生民间开发，英伟达 DLSS 5 成功移植至 RTX 40 系列",
+    "link": "https://www.ithome.com/0/995/821.htm",
+    "date": "Fri, 28 Aug 2026",
+    "img": "https://img.ithome.com/newsuploadfiles/2026/8/fab0dd86-db4e-468e-82c2-c9408b06c9f3.jpg?x-bce-process=image/format,f_auto",
+    "src": "IT之家"
+   },
+   {
+    "title": "OpenAI 开发“持久模式”智能体，Codex 将能够主动、长时间干活",
+    "link": "https://www.ithome.com/0/995/818.htm",
+    "date": "Fri, 28 Aug 2026",
+    "img": "https://img.ithome.com/newsuploadfiles/2026/5/09cfe19b-2ca3-4871-b140-9d44a4686eec.png?x-bce-process=image/format,f_auto",
+    "src": "IT之家"
+   },
+   {
+    "title": "长鑫存储开通微博首个关注小米手机，此前被曝是玄戒 O3 的 LPDDR6 内存核心合作伙伴",
+    "link": "https://www.ithome.com/0/995/817.htm",
+    "date": "Fri, 28 Aug 2026",
+    "img": "https://img.ithome.com/newsuploadfiles/2026/8/17d2a291-0053-4f4e-b079-fe7622d7d887.jpg?x-bce-process=image/format,f_auto",
+    "src": "IT之家"
+   },
+   {
+    "title": "街电推出三合一笔记本移动电源：活动到手价 398 元，赠 1 年免费共享充电宝使用权益",
+    "link": "https://www.ithome.com/0/995/816.htm",
+    "date": "Fri, 28 Aug 2026",
+    "img": "https://img.ithome.com/newsuploadfiles/2026/8/54975568-4a3e-4e76-a5da-02e118978ae7.jpg",
+    "src": "IT之家"
+   },
+   {
+    "title": "华为鸿蒙 HarmonyOS 7.0.0.105 版本开推：优化桌面显示、图库等，覆盖 Mate 80、Pura 80 等机型",
+    "link": "https://www.ithome.com/0/995/815.htm",
+    "date": "Fri, 28 Aug 2026",
+    "img": "https://img.ithome.com/newsuploadfiles/2026/3/0226f36a-4825-4419-a039-2fa19352cea5.jpg?x-bce-process=image/format,f_auto",
+    "src": "IT之家"
+   }
+  ],
+  "finance": [
+   {
+    "title": "沃什杰克逊霍尔首秀放鹰，称美联储“还有工作要做”，暗示通胀不快速下降准备加息",
+    "link": "https://wallstreetcn.com/articles/3780593",
+    "date": "Sat, 29 Aug 2026",
+    "img": "https://wpimg-wscn.awtmt.com/4e1d82d3-3082-46fa-aa2e-f4bbd8c81c67.jpeg",
+    "src": "华尔街见闻"
+   },
+   {
+    "title": "名创优品收紧海外扩张，全年利润率预计下滑3—4个百分点",
+    "link": "https://wallstreetcn.com/articles/3780596",
+    "date": "Sat, 29 Aug 2026",
+    "img": "",
+    "src": "华尔街见闻"
+   },
+   {
+    "title": "美国非农就业初步下修7.9万人，就业市场降温仍在延续",
+    "link": "https://wallstreetcn.com/articles/3780594",
+    "date": "Fri, 28 Aug 2026",
+    "img": "https://wpimg-wscn.awtmt.com/afbd0342-f3fc-4b26-bce7-c363a12479f4.png",
+    "src": "华尔街见闻"
+   },
+   {
+    "title": "沃什鹰派发言提振加息预期，美债短端收益率走高，标普500指数持平，美元走强，金油齐跌",
+    "link": "https://wallstreetcn.com/articles/3780532",
+    "date": "Fri, 28 Aug 2026",
+    "img": "https://wpimg-wscn.awtmt.com/0c759b23-543f-4e97-9400-0ef218e6e930.png",
+    "src": "华尔街见闻"
+   },
+   {
+    "title": "蜜雪换挡三年升级周期：供给端提质，需求端押注IP",
+    "link": "https://wallstreetcn.com/articles/3780595",
+    "date": "Fri, 28 Aug 2026",
+    "img": "",
+    "src": "华尔街见闻"
+   },
+   {
+    "title": "美团电话会：三季度外卖UE预计同比明显改善，Keeta盈利加速，AI迈向商家端",
+    "link": "https://wallstreetcn.com/articles/3780576",
+    "date": "Fri, 28 Aug 2026",
+    "img": "https://wpimg-wscn.awtmt.com/7265f596-3001-4945-8d91-6130b48565ea.png",
+    "src": "华尔街见闻"
+   },
+   {
+    "title": "全球股票基金结束13周净流入：投资者单周撤资59亿美元、美国股基流出223亿美元",
+    "link": "https://wallstreetcn.com/articles/3780591",
+    "date": "Fri, 28 Aug 2026",
+    "img": "",
+    "src": "华尔街见闻"
+   },
+   {
+    "title": "AI热潮席卷可转债：投资者为押注AI上涨，开始放弃债券保护",
+    "link": "https://wallstreetcn.com/articles/3780590",
+    "date": "Fri, 28 Aug 2026",
+    "img": "",
+    "src": "华尔街见闻"
+   },
+   {
+    "title": "供给极度紧张+传统旺季，美银：9月存储现货还会继续涨",
+    "link": "https://wallstreetcn.com/articles/3780585",
+    "date": "Fri, 28 Aug 2026",
+    "img": "https://wpimg-wscn.awtmt.com/8183dd00-bab2-413c-9441-9ba7b935532a.png",
+    "src": "华尔街见闻"
+   },
+   {
+    "title": "法国8月通胀超预期、西班牙升至4.5%创三年新高：市场完全定价欧央行9月加息",
+    "link": "https://wallstreetcn.com/articles/3780584",
+    "date": "Fri, 28 Aug 2026",
+    "img": "",
+    "src": "华尔街见闻"
+   },
+   {
+    "title": "Anthropic加码自研AI芯片：曾考虑70亿美元收购MatX，正接洽多家初创公司",
+    "link": "https://wallstreetcn.com/articles/3780583",
+    "date": "Fri, 28 Aug 2026",
+    "img": "",
+    "src": "华尔街见闻"
+   },
+   {
+    "title": "山东黄金上半年营收同比下降5.6%，净利润同比增长26%，拟每10股派1元 | 财报见闻",
+    "link": "https://wallstreetcn.com/articles/3780582",
+    "date": "Fri, 28 Aug 2026",
+    "img": "",
+    "src": "华尔街见闻"
+   },
+   {
+    "title": "一汽-大众把中型SUV卖进15万",
+    "link": "https://wallstreetcn.com/articles/3780581",
+    "date": "Fri, 28 Aug 2026",
+    "img": "",
+    "src": "华尔街见闻"
+   },
+   {
+    "title": "两年三次推新，智己L6再闯20万元纯电红海",
+    "link": "https://wallstreetcn.com/articles/3780580",
+    "date": "Fri, 28 Aug 2026",
+    "img": "",
+    "src": "华尔街见闻"
+   },
+   {
+    "title": "创纪录干预！日本过去一个月砸了964亿美元救日元",
+    "link": "https://wallstreetcn.com/articles/3780578",
+    "date": "Fri, 28 Aug 2026",
+    "img": "https://wpimg-wscn.awtmt.com/44b57e47-e893-4985-b467-ae7744b2e64e.png",
+    "src": "华尔街见闻"
+   },
+   {
+    "title": "上汽的卖车账先修复了",
+    "link": "https://wallstreetcn.com/articles/3780575",
+    "date": "Fri, 28 Aug 2026",
+    "img": "",
+    "src": "华尔街见闻"
+   },
+   {
+    "title": "吉利汽车重返投资级",
+    "link": "https://wallstreetcn.com/articles/3780574",
+    "date": "Fri, 28 Aug 2026",
+    "img": "",
+    "src": "华尔街见闻"
+   },
+   {
+    "title": "“零售之王”招商银行发布半年报：负债端管控显效，营收利润双双增长",
+    "link": "https://wallstreetcn.com/articles/3780573",
+    "date": "Fri, 28 Aug 2026",
+    "img": "",
+    "src": "华尔街见闻"
+   }
+  ],
+  "game": [
+   {
+    "title": "Danes Civilization Deep Dive",
+    "link": "https://store.steampowered.com/news/app/813780/view/685262187621515904",
+    "date": "Fri, 28 Aug 2026",
+    "img": "https://clan.fastly.steamstatic.com/images/35210618/abce4d82655a4446ce5967dc30832ea28e108de9.jpg",
+    "src": "Steam"
+   },
+   {
+    "title": "Big Ambitions 1.0 FULL RELEASE",
+    "link": "https://store.steampowered.com/news/app/1331550/view/716786116904093572",
+    "date": "Fri, 28 Aug 2026",
+    "img": "https://clan.fastly.steamstatic.com/images/40572925/d3dfc49269cbc5154329708f8bcc8eaed38e5031.jpg",
+    "src": "Steam"
+   },
+   {
+    "title": "Modding & What's Next",
+    "link": "https://store.steampowered.com/news/app/2764460/view/710033254358450620",
+    "date": "Fri, 28 Aug 2026",
+    "img": "https://clan.fastly.steamstatic.com/images/44828248/9c63bb63abe460f71ef1376966e5b95fa83d64bd.png",
+    "src": "Steam"
+   },
+   {
+    "title": "This Month in Civ: August Update and News Recap",
+    "link": "https://store.steampowered.com/news/app/1295660/view/716788653799506350",
+    "date": "Fri, 28 Aug 2026",
+    "img": "https://clan.fastly.steamstatic.com/images/45050851/3771101ca282357820bf779bf56aa3a66880043c.png",
+    "src": "Steam"
+   },
+   {
+    "title": "Escape the Backrooms adds free new level",
+    "link": "https://store.steampowered.com/news/group/25563497/view/701026055100563945",
+    "date": "Fri, 28 Aug 2026",
+    "img": "https://s3-b3bucket.s3.eu-west-2.amazonaws.com/wp-content/uploads/2026/08/28180427/Escape-the-Backrooms-adds-free-new-level-1024x569.jpg",
+    "src": "Steam"
+   },
+   {
+    "title": "Metro 2039 brings back a feature Metro Exodus sorely missed – military-grade ammunition once again functions as currency",
+    "link": "https://store.steampowered.com/news/group/38509069/view/676256257153172169",
+    "date": "Fri, 28 Aug 2026",
+    "img": "https://cdn.mos.cms.futurecdn.net/xWvhLbdcbRWoFTuNnvAxrj-1280-80.jpg",
+    "src": "Steam"
+   },
+   {
+    "title": "I have modded many dogs, several cows, 2 lions, and a chimpanzee into Grand Theft Auto 5, and they are all my friends",
+    "link": "https://store.steampowered.com/news/group/1850/view/668374957802127897",
+    "date": "Fri, 28 Aug 2026",
+    "img": "https://cdn.mos.cms.futurecdn.net/Zb99vPkrRpYCVoWcqb5nBm-1280-80.jpg",
+    "src": "Steam"
+   },
+   {
+    "title": "Star Wars Zero Company: All 8 Standard Classes & Abilities, Explained",
+    "link": "https://store.steampowered.com/news/group/38666666/view/712285054170038853",
+    "date": "Fri, 28 Aug 2026",
+    "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/08/star-wars-zero-company-hawks-hair.jpg",
+    "src": "Steam"
+   },
+   {
+    "title": "Hitman’s next Elusive Target mission features none other than Snoop Dogg, and is now live",
+    "link": "https://store.steampowered.com/news/group/25563497/view/701026055100563941",
+    "date": "Fri, 28 Aug 2026",
+    "img": "https://s3-b3bucket.s3.eu-west-2.amazonaws.com/wp-content/uploads/2026/08/28171655/Hitman-WOA-herbalist_screenshot.webp",
+    "src": "Steam"
+   },
+   {
+    "title": "Gallipoli Review",
+    "link": "https://store.steampowered.com/news/group/9869/view/688641156126343676",
+    "date": "Fri, 28 Aug 2026",
+    "img": "https://assets-prd.ignimgs.com/2026/08/27/gallipoli-2026-08-21-14-14-58-32-dvr-00-00-04-15-still008-1787859044827.jpg",
+    "src": "Steam"
+   }
+  ]
+ }
+}
