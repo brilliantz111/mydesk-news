@@ -14,7 +14,7 @@ import feedparser
 import requests
 
 UA = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/124 Safari/537.36"}
-PER_SOURCE = 25
+PER_SOURCE = 40
 PER_CATEGORY = 50
 TIMEOUT = 25
 
@@ -40,6 +40,7 @@ SOURCES = {
         ("机核", "https://www.gcores.com/rss"),
         ("游民星空", "https://rss.gamersky.com/rss/news.xml"),
         ("3DM", "rsshub://3dm/news"),
+        ("Steam", "https://store.steampowered.com/feeds/news/"),
     ],
     "product": [
         ("人人都是产品经理", "special:woshipm"),
@@ -128,19 +129,32 @@ def fetch_xiaoheihe(name, _url):
 
 
 def fetch_woshipm(name, _url):
-    r = requests.get("https://www.woshipm.com/", headers=UA, timeout=TIMEOUT)
-    r.raise_for_status()
+    pages = [
+        "https://www.woshipm.com/",
+        "https://www.woshipm.com/category/it",
+        "https://www.woshipm.com/category/pd",
+        "https://www.woshipm.com/category/operate",
+    ]
     items, seen = [], set()
-    for m in WOSHIPM_RE.finditer(r.text):
-        link = m.group(1)
-        title = re.sub(r"<[^>]+>", "", m.group(2)).strip()
-        if link in seen or len(title) < 6:
+    for u in pages:
+        try:
+            r = requests.get(u, headers=UA, timeout=TIMEOUT)
+            r.raise_for_status()
+        except Exception as exc:
+            print(f"  [woshipm] {u}: {exc}", file=sys.stderr)
             continue
-        seen.add(link)
-        items.append({"title": title, "link": link, "date": "", "img": "", "src": name})
+        for m in WOSHIPM_RE.finditer(r.text):
+            link = m.group(1)
+            title = re.sub(r"<[^>]+>", "", m.group(2)).strip()
+            if link in seen or len(title) < 6:
+                continue
+            seen.add(link)
+            items.append({"title": title, "link": link, "date": "", "img": "", "src": name})
+            if len(items) >= PER_CATEGORY:
+                return items
     if not items:
         raise RuntimeError("woshipm no items")
-    return items[:PER_SOURCE]
+    return items[:PER_CATEGORY]
 
 
 SPECIAL_FETCHERS = {
