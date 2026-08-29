@@ -157,36 +157,24 @@ def fetch_woshipm(name, _url):
     except Exception as exc:
         print(f"  [woshipm] homepage: {exc}", file=sys.stderr)
     if len(items) < PER_CATEGORY:
-        try:
-            idx = requests.get("https://www.woshipm.com/sitemap.xml", headers=UA, timeout=TIMEOUT).text
-            subs = re.findall(r"<loc>(https://www\.woshipm\.com/[^<]+\.xml)</loc>", idx)
-            urls = []
-            for s in subs[:6]:
-                try:
-                    sx = requests.get(s, headers=UA, timeout=TIMEOUT).text
-                    urls += re.findall(r"<loc>(https://www\.woshipm\.com/[a-z\-]+/\d+\.html)</loc>", sx)
-                except Exception:
-                    continue
-            todo = [u for u in urls if u not in seen][:PER_CATEGORY - len(items) + 10]
-
-            def grab(u):
-                try:
-                    p = requests.get(u, headers=UA, timeout=TIMEOUT)
-                    t = re.search(r"<title>([^<]+)</title>", p.text)
-                    if not t:
-                        return None
-                    title = re.split(r"\s*[-_|]\s*人人都是产品经理.*", t.group(1))[0].strip()
-                    return (u, title) if len(title) >= 6 else None
-                except Exception:
-                    return None
-
-            with ThreadPoolExecutor(max_workers=6) as pool:
-                for res in pool.map(grab, todo):
-                    if res and res[0] not in seen:
-                        seen.add(res[0])
-                        items.append({"title": res[1], "link": res[0], "date": "", "img": "", "src": name})
-        except Exception as exc:
-            print(f"  [woshipm] sitemap: {exc}", file=sys.stderr)
+        # 分类页（SSR，与首页同构）补足
+        for cat in ("it", "pd", "operate", "marketing", "ucd"):
+            if len(items) >= PER_CATEGORY:
+                break
+            try:
+                r = requests.get(f"https://www.woshipm.com/category/{cat}", headers=UA, timeout=TIMEOUT)
+                r.raise_for_status()
+                for m in WOSHIPM_RE.finditer(r.text):
+                    link = m.group(1)
+                    title = re.sub(r"<[^>]+>", "", m.group(2)).strip()
+                    if link in seen or len(title) < 6:
+                        continue
+                    seen.add(link)
+                    items.append({"title": title, "link": link, "date": "", "img": "", "src": name})
+                    if len(items) >= PER_CATEGORY:
+                        break
+            except Exception as exc:
+                print(f"  [woshipm] category {cat}: {exc}", file=sys.stderr)
     if not items:
         raise RuntimeError("woshipm no items")
     return items[:PER_CATEGORY]
@@ -253,14 +241,26 @@ def translate_non_cjk(items):
     todo = [it for it in items if it.get("link", "").startswith("http") and not has_cjk(it["title"])]
 
     def tr(it):
+        q = quote(it["title"][:300])
         try:
             r = requests.get(
-                "https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=zh-CN&dt=t&q=" + quote(it["title"][:300]),
+                "https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=zh-CN&dt=t&q=" + q,
                 headers=UA, timeout=12,
             )
             segs = r.json()[0]
             zh = "".join(s[0] for s in segs)
             if zh:
+                it["title"] = zh
+                return
+        except Exception:
+            pass
+        try:
+            r = requests.get(
+                "https://api.mymemory.translated.net/get?langpair=en-US|zh-CN&q=" + q,
+                headers=UA, timeout=12,
+            )
+            zh = (r.json().get("responseData") or {}).get("translatedText") or ""
+            if zh and has_cjk(zh):
                 it["title"] = zh
         except Exception:
             pass
@@ -298,6 +298,16 @@ def fetch_category(srcs, prev_items):
         out.append(it)
         if len(out) >= PER_CATEGORY:
             break
+    # 不足时用往期条目补足，保证栏目稳定满额
+    if len(out) < PER_CATEGORY and prev_items:
+        for it in prev_items:
+            k = norm_title(it.get("title", ""))
+            if not k or k in seen or k in out_seen:
+                continue
+            out_seen.add(k)
+            out.append(it)
+            if len(out) >= PER_CATEGORY:
+                break
     return out
 
 
