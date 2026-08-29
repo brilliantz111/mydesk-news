@@ -46,11 +46,12 @@ SOURCES = {
     ],
     "game": [
         ("小黑盒热榜", "special:xiaoheihe"),
+        ("A9VG 社区", "special:a9vg"),
         ("机核", "https://www.gcores.com/rss"),
+        ("indienova", "https://indienova.com/feed/"),
         ("GameLook", "https://www.gamelook.com.cn/feed"),
         ("游民星空", "https://rss.gamersky.com/rss/news.xml"),
         ("3DM", "rsshub://3dm/news"),
-        ("Steam", "https://store.steampowered.com/feeds/news/"),
     ],
     "product": [
         ("人人都是产品经理", "special:woshipm"),
@@ -143,6 +144,23 @@ def fetch_xiaoheihe(name, _url):
     raise RuntimeError(f"xiaoheihe channels failed: {last_err}")
 
 
+def fetch_a9vg(name, _url):
+    r = requests.get("http://bbs.a9vg.com/forum-261-1.html", headers=UA, timeout=TIMEOUT)
+    r.raise_for_status()
+    items, seen = [], set()
+    for m in re.finditer(r'<a href="(https?://bbs\.a9vg\.com/thread-\d+-\d+-\d+\.html)"[^>]*>([^<]{6,80})</a>', r.text):
+        link, title = m.group(1), m.group(2).strip()
+        if link in seen or len(title) < 8:
+            continue
+        if re.search(r"准则|规则|投诉|专用|禁止|施行|奖惩|说明", title):
+            continue
+        seen.add(link)
+        items.append({"title": title, "link": link, "date": "", "img": "", "src": name})
+    if not items:
+        raise RuntimeError("a9vg no items")
+    return items[:PER_CATEGORY]
+
+
 def fetch_woshipm(name, _url):
     items, seen = [], set()
     try:
@@ -215,6 +233,7 @@ SPECIAL_FETCHERS = {
     "xiaoheihe": fetch_xiaoheihe,
     "woshipm": fetch_woshipm,
     "sina7x24": fetch_sina7x24,
+    "a9vg": fetch_a9vg,
 }
 
 
