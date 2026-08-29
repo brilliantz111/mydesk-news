@@ -3,12 +3,14 @@
 
 Runs on GitHub Actions. Each source is fault-tolerant: a failing source is
 skipped, a failing category keeps the previous file's entries.
+English titles (e.g. Steam) are machine-translated to Chinese server-side.
 """
 import json
 import re
 import sys
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from urllib.parse import quote
 
 import feedparser
 import requests
@@ -38,9 +40,9 @@ SOURCES = {
     ],
     "finance": [
         ("华尔街见闻", "https://dedicated.wallstreetcn.com/rss.xml"),
+        ("新浪7x24", "special:sina7x24"),
         ("雪球", "rsshub://xueqiu/today"),
         ("东方财富", "rsshub://eastmoney/report/stock"),
-        ("新浪财经", "rsshub://newsin/finance"),
     ],
     "game": [
         ("小黑盒热榜", "special:xiaoheihe"),
@@ -56,10 +58,15 @@ SOURCES = {
 
 IMG_RE = re.compile(r"<img[^>]+src=[\"']([^\"']+)[\"']", re.I)
 WOSHIPM_RE = re.compile(r'<a[^>]+href="(https://www\.woshipm\.com/[a-z\-]+/\d+\.html)"[^>]*>(.*?)</a>', re.S)
+CJK_RE = re.compile(r"[一-鿿]")
 
 
 def norm_title(t):
     return re.sub(r"\s+", "", t or "").lower()
+
+
+def has_cjk(s):
+    return bool(CJK_RE.search(s or ""))
 
 
 def first_img(entry):
@@ -129,31 +136,17 @@ def fetch_xiaoheihe(name, _url):
                 seen.add(link)
                 out.append({"title": title, "link": link, "date": "", "img": "", "src": name})
             if out:
-                return out[:PER_SOURCE]
+                return out[:PER_CATEGORY]
         except Exception as exc:
             last_err = exc
     raise RuntimeError(f"xiaoheihe channels failed: {last_err}")
 
 
 def fetch_woshipm(name, _url):
-    pages = [
-        "https://www.woshipm.com/",
-        "https://www.woshipm.com/category/it",
-        "https://www.woshipm.com/category/pd",
-        "https://www.woshipm.com/category/operate",
-        "https://www.woshipm.com/category/marketing",
-        "https://www.woshipm.com/category/ucd",
-        "https://www.woshipm.com/category/zhichang",
-        "https://www.woshipm.com/category/pmd",
-    ]
     items, seen = [], set()
-    for u in pages:
-        try:
-            r = requests.get(u, headers=UA, timeout=TIMEOUT)
-            r.raise_for_status()
-        except Exception as exc:
-            print(f"  [woshipm] {u}: {exc}", file=sys.stderr)
-            continue
+    try:
+        r = requests.get("https://www.woshipm.com/", headers=UA, timeout=TIMEOUT)
+        r.raise_for_status()
         for m in WOSHIPM_RE.finditer(r.text):
             link = m.group(1)
             title = re.sub(r"<[^>]+>", "", m.group(2)).strip()
@@ -161,16 +154,78 @@ def fetch_woshipm(name, _url):
                 continue
             seen.add(link)
             items.append({"title": title, "link": link, "date": "", "img": "", "src": name})
-            if len(items) >= PER_CATEGORY:
-                return items
+    except Exception as exc:
+        print(f"  [woshipm] homepage: {exc}", file=sys.stderr)
+    if len(items) < PER_CATEGORY:
+        try:
+            idx = requests.get("https://www.woshipm.com/sitemap.xml", headers=UA, timeout=TIMEOUT).text
+            subs = re.findall(r"<loc>(https://www\.woshipm\.com/[^<]+\.xml)</loc>", idx)
+            urls = []
+            for s in subs[:6]:
+                try:
+                    sx = requests.get(s, headers=UA, timeout=TIMEOUT).text
+                    urls += re.findall(r"<loc>(https://www\.woshipm\.com/[a-z\-]+/\d+\.html)</loc>", sx)
+                except Exception:
+                    continue
+            todo = [u for u in urls if u not in seen][:PER_CATEGORY - len(items) + 10]
+
+            def grab(u):
+                try:
+                    p = requests.get(u, headers=UA, timeout=TIMEOUT)
+                    t = re.search(r"<title>([^<]+)</title>", p.text)
+                    if not t:
+                        return None
+                    title = re.split(r"\s*[-_|]\s*人人都是产品经理.*", t.group(1))[0].strip()
+                    return (u, title) if len(title) >= 6 else None
+                except Exception:
+                    return None
+
+            with ThreadPoolExecutor(max_workers=6) as pool:
+                for res in pool.map(grab, todo):
+                    if res and res[0] not in seen:
+                        seen.add(res[0])
+                        items.append({"title": res[1], "link": res[0], "date": "", "img": "", "src": name})
+        except Exception as exc:
+            print(f"  [woshipm] sitemap: {exc}", file=sys.stderr)
     if not items:
         raise RuntimeError("woshipm no items")
+    return items[:PER_CATEGORY]
+
+
+def fetch_sina7x24(name, _url):
+    items, seen = [], set()
+    for page in (1, 2, 3):
+        r = requests.get(
+            f"https://zhibo.sina.com.cn/api/zhibo/feed?page={page}&page_size=25&zhibo_id=152",
+            headers=UA, timeout=TIMEOUT,
+        )
+        j = r.json()
+        for it in j["result"]["data"]["feed"]["list"]:
+            text = re.sub(r"<[^>]+>", "", it.get("rich_text") or "").strip()
+            if len(text) < 8:
+                continue
+            title = text[:64]
+            if title in seen:
+                continue
+            seen.add(title)
+            items.append({
+                "title": title,
+                "link": "https://finance.sina.com.cn/7x24/",
+                "date": (it.get("create_time") or "")[:16],
+                "img": "",
+                "src": name,
+            })
+        if len(items) >= PER_CATEGORY:
+            break
+    if not items:
+        raise RuntimeError("sina7x24 no items")
     return items[:PER_CATEGORY]
 
 
 SPECIAL_FETCHERS = {
     "xiaoheihe": fetch_xiaoheihe,
     "woshipm": fetch_woshipm,
+    "sina7x24": fetch_sina7x24,
 }
 
 
@@ -194,6 +249,27 @@ def fetch_source(src):
     return fetch_rss(url, name)
 
 
+def translate_non_cjk(items):
+    todo = [it for it in items if it.get("link", "").startswith("http") and not has_cjk(it["title"])]
+
+    def tr(it):
+        try:
+            r = requests.get(
+                "https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=zh-CN&dt=t&q=" + quote(it["title"][:300]),
+                headers=UA, timeout=12,
+            )
+            segs = r.json()[0]
+            zh = "".join(s[0] for s in segs)
+            if zh:
+                it["title"] = zh
+        except Exception:
+            pass
+
+    with ThreadPoolExecutor(max_workers=5) as pool:
+        list(pool.map(tr, todo))
+    return items
+
+
 def fetch_category(srcs, prev_items):
     seen = set()
     if prev_items:
@@ -212,6 +288,7 @@ def fetch_category(srcs, prev_items):
             print(f"  [ok]   {src_name}: {len(items)} items", file=sys.stderr)
             merged.extend(items)
     merged.sort(key=lambda it: it.get("date", ""), reverse=True)
+    merged = translate_non_cjk(merged)
     out, out_seen = [], set()
     for it in merged:
         k = norm_title(it["title"])
