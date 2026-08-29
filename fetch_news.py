@@ -47,6 +47,7 @@ SOURCES = {
     "game": [
         ("小黑盒热榜", "special:xiaoheihe"),
         ("机核", "https://www.gcores.com/rss"),
+        ("GameLook", "https://www.gamelook.com.cn/feed"),
         ("游民星空", "https://rss.gamersky.com/rss/news.xml"),
         ("3DM", "rsshub://3dm/news"),
         ("Steam", "https://store.steampowered.com/feeds/news/"),
