@@ -18,7 +18,14 @@ PER_SOURCE = 40
 PER_CATEGORY = 50
 TIMEOUT = 25
 
-RSSHUB_BASES = ["https://rsshub.app", "https://rsshub.rssforever.com", "https://hub.slarker.me"]
+RSSHUB_BASES = [
+    "https://rsshub.app",
+    "https://rsshub.rssforever.com",
+    "https://hub.slarker.me",
+    "https://rsshub.pseudoyu.com",
+    "https://rss.owo.nz",
+    "https://rsshub.ktachibana.party",
+]
 
 SOURCES = {
     "tech": [
@@ -134,6 +141,10 @@ def fetch_woshipm(name, _url):
         "https://www.woshipm.com/category/it",
         "https://www.woshipm.com/category/pd",
         "https://www.woshipm.com/category/operate",
+        "https://www.woshipm.com/category/marketing",
+        "https://www.woshipm.com/category/ucd",
+        "https://www.woshipm.com/category/zhichang",
+        "https://www.woshipm.com/category/pmd",
     ]
     items, seen = [], set()
     for u in pages:
