@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Fetch Chinese RSS feeds and build news.json for the dashboard.
+"""Fetch Chinese news feeds and build news.json for the dashboard.
 
-Runs on GitHub Actions runners. Each source is fault-tolerant: a failing
-source is skipped, a failing category keeps the previous file's entries.
+Runs on GitHub Actions. Each source is fault-tolerant: a failing source is
+skipped, a failing category keeps the previous file's entries.
 """
 import json
 import re
@@ -14,9 +14,11 @@ import feedparser
 import requests
 
 UA = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/124 Safari/537.36"}
-PER_SOURCE = 18
-PER_CATEGORY = 45
+PER_SOURCE = 25
+PER_CATEGORY = 50
 TIMEOUT = 25
+
+RSSHUB_BASES = ["https://rsshub.app", "https://rsshub.rssforever.com", "https://hub.slarker.me"]
 
 SOURCES = {
     "tech": [
@@ -24,24 +26,28 @@ SOURCES = {
         ("36氪", "https://36kr.com/feed"),
         ("Solidot", "https://www.solidot.org/index.rss"),
         ("少数派", "https://sspai.com/feed"),
-        ("机器之心", "https://rsshub.app/jiqizhijin"),
+        ("机器之心", "rsshub://jiqizhijin"),
         ("开源中国", "https://www.oschina.net/news/rss"),
     ],
     "finance": [
         ("华尔街见闻", "https://dedicated.wallstreetcn.com/rss.xml"),
-        ("雪球", "https://rsshub.app/xueqiu/today"),
-        ("东方财富", "https://rsshub.app/eastmoney/report/stock"),
-        ("新浪财经", "https://rsshub.app/newsin/finance"),
+        ("雪球", "rsshub://xueqiu/today"),
+        ("东方财富", "rsshub://eastmoney/report/stock"),
+        ("新浪财经", "rsshub://newsin/finance"),
     ],
     "game": [
-        ("Steam", "https://store.steampowered.com/feeds/news/"),
+        ("小黑盒热榜", "special:xiaoheihe"),
+        ("机核", "https://www.gcores.com/rss"),
         ("游民星空", "https://rss.gamersky.com/rss/news.xml"),
-        ("小黑盒", "https://rsshub.app/xiaoheihe"),
-        ("3DM", "https://rsshub.app/3dm/news"),
+        ("3DM", "rsshub://3dm/news"),
+    ],
+    "product": [
+        ("人人都是产品经理", "special:woshipm"),
     ],
 }
 
 IMG_RE = re.compile(r"<img[^>]+src=[\"']([^\"']+)[\"']", re.I)
+WOSHIPM_RE = re.compile(r'<a[^>]+href="(https://www\.woshipm\.com/[a-z\-]+/\d+\.html)"[^>]*>(.*?)</a>', re.S)
 
 
 def norm_title(t):
@@ -68,11 +74,7 @@ def entry_date(entry):
     return ""
 
 
-def fetch_source(src):
-    name, url = src
-    r = requests.get(url, headers=UA, timeout=TIMEOUT)
-    r.raise_for_status()
-    fp = feedparser.parse(r.content)
+def entries_to_items(fp, name):
     items = []
     for e in fp.entries[:PER_SOURCE]:
         title = (e.get("title") or "").strip()
@@ -86,19 +88,95 @@ def fetch_source(src):
             "img": first_img(e),
             "src": name,
         })
+    return items
+
+
+def fetch_rss(url, name):
+    r = requests.get(url, headers=UA, timeout=TIMEOUT)
+    r.raise_for_status()
+    items = entries_to_items(feedparser.parse(r.content), name)
     if not items:
         raise RuntimeError("no items parsed")
     return items
 
 
-def fetch_category(prev_items):
+def fetch_xiaoheihe(name, _url):
+    attempts = [b + "/xiaoheihe/news" for b in RSSHUB_BASES]
+    attempts.append("https://news.xiaoheihe.cn/")
+    last_err = None
+    for u in attempts:
+        try:
+            r = requests.get(u, headers=UA, timeout=TIMEOUT)
+            r.raise_for_status()
+            if "<item" in r.text or "<entry" in r.text:
+                items = entries_to_items(feedparser.parse(r.content), name)
+                if items:
+                    return items
+                continue
+            out, seen = [], set()
+            for m in re.finditer(r'href="(https?://[^"]*xiaoheihe\.cn/[^"]+)"[^>]*>([^<]{4,60})<', r.text):
+                link, title = m.group(1), m.group(2).strip()
+                if link in seen or not title:
+                    continue
+                seen.add(link)
+                out.append({"title": title, "link": link, "date": "", "img": "", "src": name})
+            if out:
+                return out[:PER_SOURCE]
+        except Exception as exc:
+            last_err = exc
+    raise RuntimeError(f"xiaoheihe channels failed: {last_err}")
+
+
+def fetch_woshipm(name, _url):
+    r = requests.get("https://www.woshipm.com/", headers=UA, timeout=TIMEOUT)
+    r.raise_for_status()
+    items, seen = [], set()
+    for m in WOSHIPM_RE.finditer(r.text):
+        link = m.group(1)
+        title = re.sub(r"<[^>]+>", "", m.group(2)).strip()
+        if link in seen or len(title) < 6:
+            continue
+        seen.add(link)
+        items.append({"title": title, "link": link, "date": "", "img": "", "src": name})
+    if not items:
+        raise RuntimeError("woshipm no items")
+    return items[:PER_SOURCE]
+
+
+SPECIAL_FETCHERS = {
+    "xiaoheihe": fetch_xiaoheihe,
+    "woshipm": fetch_woshipm,
+}
+
+
+def fetch_source(src):
+    name, url = src
+    if url.startswith("special:"):
+        fn = SPECIAL_FETCHERS.get(url.split(":", 1)[1])
+        if not fn:
+            raise RuntimeError(f"unknown special source {url}")
+        return fn(name, url)
+    if url.startswith("rsshub://"):
+        last_err = None
+        for b in RSSHUB_BASES:
+            try:
+                items = fetch_rss(b + url[len("rsshub://"):], name)
+                if items:
+                    return items
+            except Exception as exc:
+                last_err = exc
+        raise RuntimeError(f"rsshub instances failed: {last_err}")
+    return fetch_rss(url, name)
+
+
+def fetch_category(srcs, prev_items):
     seen = set()
     if prev_items:
         for it in prev_items:
             seen.add(norm_title(it.get("title", "")))
     merged = []
     with ThreadPoolExecutor(max_workers=6) as pool:
-        futures = {pool.submit(fetch_source, s): s[0] for s in sources}
+        futures = {pool.submit(fetch_source, s): s[0] for s in srcs}
         for fut in as_completed(futures):
             src_name = futures[fut]
             try:
@@ -131,8 +209,7 @@ def main():
 
     cats = {}
     for cat, srcs in SOURCES.items():
-        globals()["sources"] = srcs
-        items = fetch_category(prev_cats.get(cat, []))
+        items = fetch_category(srcs, prev_cats.get(cat, []))
         if items:
             cats[cat] = items
         elif prev_cats.get(cat):
