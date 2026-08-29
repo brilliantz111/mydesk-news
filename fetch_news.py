@@ -225,10 +225,13 @@ def fetch_source(src):
             raise RuntimeError(f"unknown special source {url}")
         return fn(name, url)
     if url.startswith("rsshub://"):
+        path = url.split("://", 1)[1]
+        if not path.startswith("/"):
+            path = "/" + path
         last_err = None
         for b in RSSHUB_BASES:
             try:
-                items = fetch_rss(b + url[len("rsshub://"):], name)
+                items = fetch_rss(b + path, name)
                 if items:
                     return items
             except Exception as exc:
