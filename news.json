@@ -1,1008 +1,1001 @@
 {
- "updated": "2026-09-01T02:01:24+08:00",
+ "updated": "2026-09-01T09:50:10+08:00",
  "categories": {
   "tech": [
    {
-    "title": "城市漫步指南 | 佛罗伦萨：来自六月的梦幻艺术夏令营",
-    "link": "https://sspai.com/post/113974",
-    "date": "Sun, 30 Aug 2026",
+    "title": "派早报：OpenClaw 推出 2.0 版本更新，网易 CC 直播正式停运等",
+    "link": "https://sspai.com/post/114055",
+    "date": "Tue, 01 Sep 2026",
     "img": "",
     "src": "少数派"
    },
    {
-    "title": "Pixel 11 取消了对硬件 MTE 的支持",
-    "link": "https://www.solidot.org/story?sid=85233",
+    "title": "OpenShot 4.0 释出",
+    "link": "https://www.solidot.org/story?sid=85246",
+    "date": "Tue, 01 Sep 2026",
+    "img": "",
+    "src": "Solidot"
+   },
+   {
+    "title": "碎屏背后的选择题：苹果 iPhone 独立维修案时隔 4 年重回法庭",
+    "link": "https://www.ithome.com/0/996/760.htm",
+    "date": "Tue, 01 Sep 2026",
+    "img": "",
+    "src": "IT之家"
+   },
+   {
+    "title": "消息称英伟达重启推理预填充优化芯片 Rubin CPX 项目，设计大幅调整",
+    "link": "https://www.ithome.com/0/996/759.htm",
+    "date": "Tue, 01 Sep 2026",
+    "img": "https://img.ithome.com/newsuploadfiles/2026/9/936d9e81-d429-48bf-9adf-4450de3e42b4.jpg",
+    "src": "IT之家"
+   },
+   {
+    "title": "2027 款奇瑞星途揽月正式上市，限时权益价 14.99 万起",
+    "link": "https://www.ithome.com/0/996/758.htm",
+    "date": "Tue, 01 Sep 2026",
+    "img": "https://img.ithome.com/newsuploadfiles/2026/9/129639b7-83eb-44e8-9ec9-4a2008b49b74.png?x-bce-process=image/format,f_auto",
+    "src": "IT之家"
+   },
+   {
+    "title": "国内首部 AIGC 长剧：湖南卫视《后西游记》上星收视飘红，实时收视率同时段位居省级卫视第一名",
+    "link": "https://www.ithome.com/0/996/757.htm",
+    "date": "Tue, 01 Sep 2026",
+    "img": "https://img.ithome.com/newsuploadfiles/2026/9/e0302ef0-f809-48fe-9865-6c9938efdb96.jpg",
+    "src": "IT之家"
+   },
+   {
+    "title": "鸿蒙智行 8 月交付 42,101 台新车，年内累计交付同比增长 10.8%",
+    "link": "https://www.ithome.com/0/996/756.htm",
+    "date": "Tue, 01 Sep 2026",
+    "img": "https://img.ithome.com/newsuploadfiles/2026/9/bf1268e2-a03e-4820-b201-4024a036bb76.jpg?x-bce-process=image/format,f_auto",
+    "src": "IT之家"
+   },
+   {
+    "title": "百度完成港交所与纳斯达克双重主要上市",
+    "link": "https://www.ithome.com/0/996/754.htm",
+    "date": "Tue, 01 Sep 2026",
+    "img": "https://img.ithome.com/newsuploadfiles/2026/9/3da7796c-58d6-4858-b925-6995a17c26bd.png",
+    "src": "IT之家"
+   },
+   {
+    "title": "彭博社：特努斯掌舵后，苹果未来 3 年或调整 4 大部门核心高管",
+    "link": "https://www.ithome.com/0/996/752.htm",
+    "date": "Tue, 01 Sep 2026",
+    "img": "https://img.ithome.com/newsuploadfiles/2024/11/535d4b50-d9dd-45fe-95c0-bbc280511a0b.jpg?x-bce-process=image/auto-orient,o_1",
+    "src": "IT之家"
+   },
+   {
+    "title": "曝索尼正开发全新 APS-C 传感器：约 2600 万像素，搭载 FX5 同款双增益技术",
+    "link": "https://www.ithome.com/0/996/746.htm",
+    "date": "Tue, 01 Sep 2026",
+    "img": "https://img.ithome.com/newsuploadfiles/2026/9/e1e425c6-e586-47bb-bf41-7fc4ace044d7.jpg?x-bce-process=image/format,f_auto",
+    "src": "IT之家"
+   },
+   {
+    "title": "范式智能出资 10 亿元采购华为昇腾 950，用于 AI 大模型落地",
+    "link": "https://www.ithome.com/0/996/745.htm",
+    "date": "Tue, 01 Sep 2026",
+    "img": "",
+    "src": "IT之家"
+   },
+   {
+    "title": "谷歌多款智能家居硬件在美涨价，Google TV Streamer 机顶盒涨幅约 50%",
+    "link": "https://www.ithome.com/0/996/744.htm",
+    "date": "Tue, 01 Sep 2026",
+    "img": "https://img.ithome.com/newsuploadfiles/2026/9/4f723b1f-a851-4839-a8ca-4cee3a5cb4fb.jpg?x-bce-process=image/format,f_auto",
+    "src": "IT之家"
+   },
+   {
+    "title": "余承东官宣华为 Mate XT 2 非凡大师三折叠手机首次把硬件级防窥带入大屏，双击外屏即可开启",
+    "link": "https://www.ithome.com/0/996/743.htm",
+    "date": "Tue, 01 Sep 2026",
+    "img": "https://img.ithome.com/newsuploadfiles/2026/9/b0d68929-d81c-420b-920b-e7e2ec5013d9.jpg?x-bce-process=image/format,f_auto",
+    "src": "IT之家"
+   },
+   {
+    "title": "2026 年 8 月汽车销量 / 交付汇总（持续更新）：鸿蒙智行品牌交付 42,101 辆，年内累计交付同比增长 10.8%",
+    "link": "https://www.ithome.com/0/996/723.htm",
+    "date": "Tue, 01 Sep 2026",
+    "img": "",
+    "src": "IT之家"
+   },
+   {
+    "title": "创意名人堂设立 65 年首次表彰企业品牌，苹果凭 50 年设计与传播创新入选",
+    "link": "https://www.ithome.com/0/996/730.htm",
+    "date": "Tue, 01 Sep 2026",
+    "img": "https://img.ithome.com/newsuploadfiles/2026/9/5a4a20f3-c8b9-4f83-8b9a-07dc42174ba5.jpg?x-bce-process=image/format,f_auto",
+    "src": "IT之家"
+   },
+   {
+    "title": "英伟达宣布向联发科投资 35 亿美元，在 AI、PC 芯片、汽车三大领域达成合作",
+    "link": "https://www.ithome.com/0/996/728.htm",
+    "date": "Tue, 01 Sep 2026",
+    "img": "https://img.ithome.com/newsuploadfiles/2026/9/4d7dabef-a940-4501-9a16-cbe4f496d96b.png",
+    "src": "IT之家"
+   },
+   {
+    "title": "小米汽车：2026 年 8 月交付量超 3 万台，正全力为澎程上市交付做准备",
+    "link": "https://www.ithome.com/0/996/727.htm",
+    "date": "Tue, 01 Sep 2026",
+    "img": "https://img.ithome.com/newsuploadfiles/2026/9/504ed43a-d862-4419-83a7-d72354e202ca.jpg?x-bce-process=image/format,f_auto",
+    "src": "IT之家"
+   },
+   {
+    "title": "2026 年暑期档电影票房超 124 亿元同比增长 4.45%：《功夫女足》《欢迎来龙餐馆》《八仙！》位列前三位",
+    "link": "https://www.ithome.com/0/996/726.htm",
+    "date": "Tue, 01 Sep 2026",
+    "img": "https://img.ithome.com/newsuploadfiles/2026/9/cc472c0a-2dcc-4791-b33b-31017b632a6d.png",
+    "src": "IT之家"
+   },
+   {
+    "title": "索尼 PlayStation 上线广告支持型免费流媒体服务 Live TV on PS5",
+    "link": "https://www.ithome.com/0/996/725.htm",
+    "date": "Tue, 01 Sep 2026",
+    "img": "https://img.ithome.com/newsuploadfiles/2026/9/53e18aee-237f-49ee-8532-b7f4148e29fe.jpg",
+    "src": "IT之家"
+   },
+   {
+    "title": "索尼 PlayStation 集体诉讼案达成 785 万美元初步和解，440 万玩家将获 PSN 余额补偿",
+    "link": "https://www.ithome.com/0/996/724.htm",
+    "date": "Tue, 01 Sep 2026",
+    "img": "https://img.ithome.com/newsuploadfiles/2026/9/6cedfac9-1583-455d-a5bf-8eb44f17e3d9.png?x-bce-process=image/format,f_auto",
+    "src": "IT之家"
+   },
+   {
+    "title": "苹果首款折叠手机 iPhone Ultra 预估本月发售，首批供应“极其有限”",
+    "link": "https://www.ithome.com/0/996/722.htm",
+    "date": "Tue, 01 Sep 2026",
+    "img": "",
+    "src": "IT之家"
+   },
+   {
+    "title": "亚马逊遭美国 FTC 牵头起诉：被控暗中抬高在线搜索广告价格，不当得利数百亿美元",
+    "link": "https://www.ithome.com/0/996/720.htm",
+    "date": "Tue, 01 Sep 2026",
+    "img": "https://img.ithome.com/newsuploadfiles/2026/3/934a196d-8c69-452d-a6e0-a12bf198b13e.jpg?x-bce-process=image/format,f_auto",
+    "src": "IT之家"
+   },
+   {
+    "title": "华境 S 大六座 SUV 8 月交付 7306 台：连续 4 个月交付增长，售价 15.98 万元起",
+    "link": "https://www.ithome.com/0/996/718.htm",
+    "date": "Tue, 01 Sep 2026",
+    "img": "https://img.ithome.com/newsuploadfiles/2026/9/5bf7a99b-be67-446c-927e-a3b4defe06f7.png?x-bce-process=image/format,f_auto",
+    "src": "IT之家"
+   },
+   {
+    "title": "苹果今秋 iPhone 18 Pro / Max 发布会预估下架 11 款设备，iPhone 16 去留存悬念",
+    "link": "https://www.ithome.com/0/996/717.htm",
+    "date": "Tue, 01 Sep 2026",
+    "img": "https://img.ithome.com/newsuploadfiles/2026/9/e68f499d-67cd-440d-b17d-439879ccaef1.png",
+    "src": "IT之家"
+   },
+   {
+    "title": "广汽传祺 M8 第 50 万辆下线，成为首个突破 50 万销量的自主品牌豪华 MPV",
+    "link": "https://www.ithome.com/0/996/716.htm",
+    "date": "Tue, 01 Sep 2026",
+    "img": "https://img.ithome.com/newsuploadfiles/2026/9/a06f08d2-81f2-4e5f-aac4-66a668e1507b.jpg",
+    "src": "IT之家"
+   },
+   {
+    "title": "三星推出入门级 14 英寸 Galaxy Book6 笔记本电脑：搭载 Wildcat Lake，799 美元起",
+    "link": "https://www.ithome.com/0/996/713.htm",
+    "date": "Tue, 01 Sep 2026",
+    "img": "https://img.ithome.com/newsuploadfiles/2026/9/e392ab7d-c969-4af2-ae3e-f9420e589016.jpg?x-bce-process=image/format,f_auto",
+    "src": "IT之家"
+   },
+   {
+    "title": "苹果 Vision Pro 首场沉浸式 MLB 直播：8K 3D 画面、180 度视野",
+    "link": "https://www.ithome.com/0/996/715.htm",
+    "date": "Tue, 01 Sep 2026",
+    "img": "https://img.ithome.com/newsuploadfiles/2026/9/1eb862d9-8d71-446c-8bb4-f5c8dff5bbc4.jpg?x-bce-process=image/format,f_auto",
+    "src": "IT之家"
+   },
+   {
+    "title": "英伟达“二房东”下场转租：Anthropic 与 Lambda 签署 350 亿美元云计算协议",
+    "link": "https://www.ithome.com/0/996/714.htm",
+    "date": "Tue, 01 Sep 2026",
+    "img": "https://img.ithome.com/newsuploadfiles/2026/9/5a7d019b-cc6c-4ce2-917a-8a12493f9d39.png?x-bce-process=image/format,f_auto",
+    "src": "IT之家"
+   },
+   {
+    "title": "Red Hat 卖了，GitHub 卖了，Hugging Face，据报道也要卖给英伟达了",
+    "link": "https://www.oschina.net/news/502160/oschina-futurex",
+    "date": "Thu, 27 Aug 2026",
+    "img": "",
+    "src": "开源中国"
+   },
+   {
+    "title": "索尼华纳起诉 Anthropic 侵犯版权",
+    "link": "https://www.solidot.org/story?sid=85234",
     "date": "Sun, 30 Aug 2026",
     "img": "",
     "src": "Solidot"
    },
    {
-    "title": "Termexo V0.6.0 发布：新增任务看板，OpenCode 升级为一等 Agent",
-    "link": "https://www.oschina.net/news/502204",
-    "date": "Sun, 30 Aug 2026",
-    "img": "",
-    "src": "开源中国"
-   },
-   {
-    "title": "Go Agent 框架 Covonaut v1.1.0 发布：Markdown 与代码高亮全面升级",
-    "link": "https://www.oschina.net/news/502203",
-    "date": "Sun, 30 Aug 2026",
-    "img": "",
-    "src": "开源中国"
-   },
-   {
-    "title": "QFO v1.0.1：面向量化新手的本地 A 股研究与回测平台",
-    "link": "https://www.oschina.net/news/502202",
-    "date": "Sun, 30 Aug 2026",
-    "img": "",
-    "src": "开源中国"
-   },
-   {
-    "title": "AI 开发的一个安全优先的编程工具",
-    "link": "https://www.oschina.net/news/502201",
-    "date": "Sun, 30 Aug 2026",
-    "img": "",
-    "src": "开源中国"
-   },
-   {
-    "title": "2026 烟灶选购指南",
-    "link": "https://sspai.com/post/112775",
-    "date": "Sat, 29 Aug 2026",
+    "title": "家庭饮品 DIY 指南（四）：奶昔、柠檬和茶系列配方",
+    "link": "https://sspai.com/prime/story/home-made-beverages-4",
+    "date": "Mon, 31 Aug 2026",
     "img": "",
     "src": "少数派"
    },
    {
-    "title": "中国账户试图悄悄煽动美国反数据中心情绪？",
-    "link": "https://www.solidot.org/story?sid=85232",
-    "date": "Sat, 29 Aug 2026",
-    "img": "",
-    "src": "Solidot"
-   },
-   {
-    "title": "女性在产后遭遇 PTSD",
-    "link": "https://www.solidot.org/story?sid=85231",
-    "date": "Sat, 29 Aug 2026",
-    "img": "",
-    "src": "Solidot"
-   },
-   {
-    "title": "日韩上半年人口都出现增长",
-    "link": "https://www.solidot.org/story?sid=85230",
-    "date": "Sat, 29 Aug 2026",
-    "img": "",
-    "src": "Solidot"
-   },
-   {
-    "title": "Debian 项目将允许以负责任的方式使用生成式 AI",
-    "link": "https://www.solidot.org/story?sid=85229",
-    "date": "Sat, 29 Aug 2026",
-    "img": "",
-    "src": "Solidot"
-   },
-   {
-    "title": "人形机器人的跑步方式与人类不同",
-    "link": "https://www.solidot.org/story?sid=85228",
-    "date": "Sat, 29 Aug 2026",
-    "img": "",
-    "src": "Solidot"
-   },
-   {
-    "title": "程序员在公司厕所猝死，人社局以电脑没开不认定工伤",
-    "link": "https://www.solidot.org/story?sid=85227",
-    "date": "Sat, 29 Aug 2026",
-    "img": "",
-    "src": "Solidot"
-   },
-   {
-    "title": "澳大利亚有望在未来十年消灭宫颈癌",
-    "link": "https://www.solidot.org/story?sid=85226",
-    "date": "Sat, 29 Aug 2026",
-    "img": "",
-    "src": "Solidot"
-   },
-   {
-    "title": "「中国词元」：芯片、模型、绿电的算术题",
-    "link": "https://www.oschina.net/news/502199",
-    "date": "Sat, 29 Aug 2026",
-    "img": "",
-    "src": "开源中国"
-   },
-   {
-    "title": "AI 时代的代码库，为什么成了兵家必争之地",
-    "link": "https://www.oschina.net/news/502198",
-    "date": "Sat, 29 Aug 2026",
-    "img": "",
-    "src": "开源中国"
-   },
-   {
-    "title": "中国版 Hugging Face 是怎么造出来的",
-    "link": "https://www.oschina.net/news/502197",
-    "date": "Sat, 29 Aug 2026",
-    "img": "",
-    "src": "开源中国"
-   },
-   {
-    "title": "巨头拿着支票来了，开源创业者该不该卖？",
-    "link": "https://www.oschina.net/news/502196",
-    "date": "Sat, 29 Aug 2026",
-    "img": "",
-    "src": "开源中国"
-   },
-   {
-    "title": "AI 时代，开源为什么越来越值钱",
-    "link": "https://www.oschina.net/news/502195",
-    "date": "Sat, 29 Aug 2026",
-    "img": "",
-    "src": "开源中国"
-   },
-   {
-    "title": "全球开源平台的宿命，都逃不过被收购 ？",
-    "link": "https://www.oschina.net/news/502194",
-    "date": "Sat, 29 Aug 2026",
-    "img": "",
-    "src": "开源中国"
-   },
-   {
-    "title": "Neton 1.0.0-beta1 发布：Kotlin/Native 服务端时代，从这一刻开始",
-    "link": "https://www.oschina.net/news/502186",
-    "date": "Sat, 29 Aug 2026",
-    "img": "",
-    "src": "开源中国"
-   },
-   {
-    "title": "MsgTrans 2.0 Beta 1：把“高性能传输”升级为“可证明高性能可靠”",
-    "link": "https://www.oschina.net/news/502185",
-    "date": "Sat, 29 Aug 2026",
-    "img": "",
-    "src": "开源中国"
-   },
-   {
-    "title": "本月玩什么｜Big Walk、潜龙谍影 大师合辑 Vol. 2",
-    "link": "https://sspai.com/post/114043",
+    "title": "屏幕之外，桌面之上：走过十年，明基探索了一束光的更多可能",
+    "link": "https://sspai.com/post/114027",
     "date": "Mon, 31 Aug 2026",
     "img": "",
     "src": "少数派"
    },
    {
-    "title": "派评 | 近期值得关注的 App",
-    "link": "https://sspai.com/post/114041",
+    "title": "全球仅剩三位数的物种，科学家却连一个准数都数不出来",
+    "link": "https://sspai.com/post/113827",
     "date": "Mon, 31 Aug 2026",
     "img": "",
     "src": "少数派"
    },
    {
-    "title": "派早报：GTA 6 引发请假玩游戏热潮",
-    "link": "https://sspai.com/post/114022",
-    "date": "Mon, 31 Aug 2026",
-    "img": "",
-    "src": "少数派"
-   },
-   {
-    "title": "Linux 7.3-rc1 释出",
-    "link": "https://www.solidot.org/story?sid=85244",
+    "title": "加州议会通过年龄验证法案，Linux BSD 豁免",
+    "link": "https://www.solidot.org/story?sid=85245",
     "date": "Mon, 31 Aug 2026",
     "img": "",
     "src": "Solidot"
    },
    {
-    "title": "Steam 平台 2003-2013 年的几乎所有游戏泄露",
-    "link": "https://www.solidot.org/story?sid=85243",
+    "title": "植物如何应对高温",
+    "link": "https://www.solidot.org/story?sid=85241",
     "date": "Mon, 31 Aug 2026",
     "img": "",
     "src": "Solidot"
    },
    {
-    "title": "Google 改变了其搜索结果的展示方式",
-    "link": "https://www.solidot.org/story?sid=85242",
+    "title": "人类何时开始不爱吃昆虫？",
+    "link": "https://www.solidot.org/story?sid=85240",
     "date": "Mon, 31 Aug 2026",
     "img": "",
     "src": "Solidot"
    },
    {
-    "title": "天文学家可能发现首个没有恒星的星系",
-    "link": "https://www.solidot.org/story?sid=85239",
+    "title": "小米汽车：目前市面上超过 65% 的增程车，CLTC 纯电续航标称值都不到 300km",
+    "link": "https://www.ithome.com/0/996/712.htm",
     "date": "Mon, 31 Aug 2026",
-    "img": "",
-    "src": "Solidot"
-   },
-   {
-    "title": "韩国准备向所有民众提供免费 AI 服务",
-    "link": "https://www.solidot.org/story?sid=85238",
-    "date": "Mon, 31 Aug 2026",
-    "img": "",
-    "src": "Solidot"
-   },
-   {
-    "title": "柏林市遭到黑客攻击和勒索",
-    "link": "https://www.solidot.org/story?sid=85237",
-    "date": "Mon, 31 Aug 2026",
-    "img": "",
-    "src": "Solidot"
-   },
-   {
-    "title": "Google Maps 在美国将安大略湖更名为美国湖",
-    "link": "https://www.solidot.org/story?sid=85236",
-    "date": "Mon, 31 Aug 2026",
-    "img": "",
-    "src": "Solidot"
-   },
-   {
-    "title": "NASA 成功发射罗曼太空望远镜",
-    "link": "https://www.solidot.org/story?sid=85235",
-    "date": "Mon, 31 Aug 2026",
-    "img": "",
-    "src": "Solidot"
-   },
-   {
-    "title": "华为、小米、荣耀手机今日集体调价",
-    "link": "https://www.ithome.com/0/996/694.htm",
-    "date": "Mon, 31 Aug 2026",
-    "img": "https://img.ithome.com/newsuploadfiles/2026/9/342d5acb-1b7d-43fe-bcef-9e1f1c362bfd.png",
+    "img": "https://img.ithome.com/newsuploadfiles/2026/9/6c508607-9813-4b0c-92d6-ace37b3f36cd.jpg",
     "src": "IT之家"
    },
    {
-    "title": "苹果 watchOS 27.0 开发者预览版 Beta 8 发布",
-    "link": "https://www.ithome.com/0/996/693.htm",
+    "title": "Anthropic 详解 7·30 安全事件：配置错误致 Claude“入侵”真实企业，已加强沙箱隔离与实时监控",
+    "link": "https://www.ithome.com/0/996/711.htm",
     "date": "Mon, 31 Aug 2026",
-    "img": "https://img.ithome.com/newsuploadfiles/2022/4/8bd386fb-ecc7-474d-bd95-4c69ba122e7a.jpg?x-bce-process=image/watermark,image_aW1nL3dhdGVybWFyay9xdy9xdzEzOC5wbmc=,g_7,x_14,y_14,a_0,t_100",
+    "img": "https://img.ithome.com/newsuploadfiles/2026/9/7c3bb6e3-12b3-4f78-a734-ae6b32c01c13.png?x-bce-process=image/format,f_auto",
     "src": "IT之家"
    },
    {
-    "title": "苹果 visionOS 27.0 开发者预览版 Beta 8 发布",
-    "link": "https://www.ithome.com/0/996/692.htm",
+    "title": "Mac 成 AI 硬件宠儿：苹果提前发布 2026 款 mini / Studio，全球需求激增促成 8 月上新",
+    "link": "https://www.ithome.com/0/996/710.htm",
     "date": "Mon, 31 Aug 2026",
-    "img": "https://img.ithome.com/newsuploadfiles/2024/2/0a176a39-e916-49c8-ba8b-1241019bd125.jpg?x-bce-process=image/format,f_auto",
+    "img": "https://img.ithome.com/newsuploadfiles/2026/9/7c84a9f7-42bf-4f00-b605-c1bec79aaba0.png?x-bce-process=image/format,f_auto",
     "src": "IT之家"
    },
    {
-    "title": "苹果 macOS 27.0 开发者预览版 Beta 8 发布",
-    "link": "https://www.ithome.com/0/996/691.htm",
+    "title": "IT早报 0901：华为、小米、荣耀手机今日集体调价；库克担任苹果 CEO 最后一天给员工发告别信；曝网易全系产品将登陆华为鸿蒙系统；国内首部 AIGC 长剧《后西游记》开播...",
+    "link": "https://www.ithome.com/0/996/709.htm",
     "date": "Mon, 31 Aug 2026",
-    "img": "https://img.ithome.com/newsuploadfiles/2022/4/43319a24-e228-40a9-9047-44c5a77893d4.jpg?x-bce-process=image/watermark,image_aW1nL3dhdGVybWFyay9xdy9xdzEzOC5wbmc=,g_7,x_14,y_14,a_0,t_100",
+    "img": "https://img.ithome.com/newsuploadfiles/2026/9/a1cc0c13-36a1-4f94-a8b3-67aafc604de4.png",
     "src": "IT之家"
    },
    {
-    "title": "苹果 iOS/iPadOS 27.0 开发者预览版 Beta 8 发布",
-    "link": "https://www.ithome.com/0/996/690.htm",
+    "title": "2027 款上汽大众帕萨特 Pro 车型正式上市：官方指导价 17.2 万元起，限时优惠价 13.99 万元起",
+    "link": "https://www.ithome.com/0/996/708.htm",
     "date": "Mon, 31 Aug 2026",
-    "img": "https://img.ithome.com/newsuploadfiles/2022/4/415e6b6f-de4b-468d-be0e-b92e95688ee8.jpg?x-bce-process=image/watermark,image_aW1nL3dhdGVybWFyay9xdy9xdzEzOC5wbmc=,g_7,x_14,y_14,a_0,t_100",
+    "img": "https://img.ithome.com/newsuploadfiles/2026/9/b20f66a6-ccca-45f5-b079-8d1ab7ebfea8.jpg",
     "src": "IT之家"
    },
    {
-    "title": "菲尔 · 席勒卸任苹果 App Store 及产品发布会负责人职务",
-    "link": "https://www.ithome.com/0/996/689.htm",
+    "title": "奕境曾清林：中国新能源车能领跑全球除了“换道”巧劲，更离不开“直道”上攒下的硬实力",
+    "link": "https://www.ithome.com/0/996/707.htm",
     "date": "Mon, 31 Aug 2026",
-    "img": "https://img.ithome.com/newsuploadfiles/2026/9/37ee3a5c-cbc9-4124-bdba-a2e606cdd0c1.jpg",
+    "img": "https://img.ithome.com/newsuploadfiles/2026/9/f20b9346-8cd6-46a4-8399-45271c4cb954.png?x-bce-process=image/format,f_auto",
     "src": "IT之家"
    },
    {
-    "title": "2026 年 8 月全球桌面浏览器排行：Chrome 73.28%、Edge 10.46%、Firefox 5.31%",
-    "link": "https://www.ithome.com/0/996/687.htm",
+    "title": "苹果摄像头版 AirPods 爆料：可拍摄 100 万像素彩照，改进空间音频体验",
+    "link": "https://www.ithome.com/0/996/706.htm",
     "date": "Mon, 31 Aug 2026",
-    "img": "https://img.ithome.com/newsuploadfiles/2026/9/8dd52794-a5df-4aa8-8cfd-fe2d8921490f.png",
+    "img": "https://img.ithome.com/newsuploadfiles/2026/9/beb4159a-8f19-4cf6-93b1-0da6c5f40eb8.jpg?x-bce-process=image/format,f_auto",
     "src": "IT之家"
    },
    {
-    "title": "2026 年 8 月中国桌面 Windows 份额：Win11 占比 49.16%，环比下降 0.85 个百分点",
-    "link": "https://www.ithome.com/0/996/686.htm",
+    "title": "微信鸿蒙版 App 获 8.0.21.34 版本邀测升级，修复了一些已知问题",
+    "link": "https://www.ithome.com/0/996/705.htm",
     "date": "Mon, 31 Aug 2026",
-    "img": "https://img.ithome.com/newsuploadfiles/2026/9/392be868-359e-4bf0-8e14-33a53415431a.png?x-bce-process=image/format,f_auto",
+    "img": "https://img.ithome.com/newsuploadfiles/2026/9/f08c39c0-30a6-462d-9d58-e74576343158.jpg?x-bce-process=image/format,f_auto",
     "src": "IT之家"
    },
    {
-    "title": "2026 年 8 月全球桌面 Windows 份额：Win11 占比 68.60%，环比下降 0.28 个百分点",
-    "link": "https://www.ithome.com/0/996/685.htm",
+    "title": "华为 Mate XT 2 非凡大师三折叠手机首搭灵盾防窥屏，杨幂在片场首秀内屏防窥模式",
+    "link": "https://www.ithome.com/0/996/704.htm",
     "date": "Mon, 31 Aug 2026",
-    "img": "https://img.ithome.com/newsuploadfiles/2026/9/b548f479-c0c9-44ec-a1da-3d7649cc0c77.png?x-bce-process=image/format,f_auto",
+    "img": "https://img.ithome.com/newsuploadfiles/2026/8/e69d5d4d-66bd-4597-84ae-b90c94d36225.jpg",
     "src": "IT之家"
    },
    {
-    "title": "库克担任苹果 CEO 最后一天给员工发告别信：将公司交给约翰 · 特努斯让我无比安心",
-    "link": "https://www.ithome.com/0/996/684.htm",
+    "title": "苹果 MacBook Neo 8GB 被曝 SSD 寿命隐患：3 小时写入近 900GB，高强度下寿命不足两月",
+    "link": "https://www.ithome.com/0/996/703.htm",
     "date": "Mon, 31 Aug 2026",
-    "img": "https://img.ithome.com/newsuploadfiles/2026/8/303fbb1b-a664-4065-bb8c-99d88641e249.png",
+    "img": "https://img.ithome.com/newsuploadfiles/2026/9/1900a014-9ba7-4c25-9524-78b5201c0a46.jpg?x-bce-process=image/format,f_auto",
     "src": "IT之家"
    },
    {
-    "title": "七彩虹 iGame X870E VULCAN W OC 主板发售：超频旗舰，3999 元",
-    "link": "https://www.ithome.com/0/996/683.htm",
+    "title": "苹果披露“惊人证据”：OpenAI 跳槽工程师下载机密电路图还销毁证据",
+    "link": "https://www.ithome.com/0/996/702.htm",
     "date": "Mon, 31 Aug 2026",
-    "img": "https://img.ithome.com/newsuploadfiles/2026/8/b195cf47-5aba-4af0-a5a6-c78f7b6a00a9.jpg",
+    "img": "https://img.ithome.com/newsuploadfiles/2026/9/bce0f3cc-9759-4726-ab9c-50a7045a6efb.png",
     "src": "IT之家"
    },
    {
-    "title": "福特中国首款出口欧洲等发达市场的纯电动商用车，全新福特 Transit City 在江铃小蓝工厂下线",
-    "link": "https://www.ithome.com/0/996/681.htm",
+    "title": "稳定版发布倒计时，苹果推送 iOS / iPadOS 27 第 6 个公测版",
+    "link": "https://www.ithome.com/0/996/701.htm",
     "date": "Mon, 31 Aug 2026",
-    "img": "https://img.ithome.com/newsuploadfiles/2026/8/8e266fee-700c-484f-9c6e-28119462ed4c.png?x-bce-process=image/format,f_auto",
+    "img": "https://img.ithome.com/newsuploadfiles/2026/9/cad293ad-1af8-40f2-b4fd-9fe27d6ac89c.png?x-bce-process=image/format,f_auto",
     "src": "IT之家"
    },
    {
-    "title": "博通推出 VMware AI 工厂，简化企业私有云 AI 部署",
-    "link": "https://www.ithome.com/0/996/680.htm",
+    "title": "库克发文告别苹果 CEO 一职：头衔会变，但对 Apple 社区的热爱永远不会改变",
+    "link": "https://www.ithome.com/0/996/700.htm",
     "date": "Mon, 31 Aug 2026",
-    "img": "https://img.ithome.com/newsuploadfiles/2026/8/6b89dc6d-5ae5-4fce-9bed-8fee749a09d5.jpg",
+    "img": "https://img.ithome.com/newsuploadfiles/2026/4/c32af2a0-d2a1-43b7-8170-f00a1c9e1e7a.png?x-bce-process=image/format,f_auto",
     "src": "IT之家"
    },
    {
-    "title": "整治 AI 虚假账号，Instagram 推出全新 AI 个人资料标签",
-    "link": "https://www.ithome.com/0/996/679.htm",
+    "title": "Steam PvE 生存建造节开启：《幻兽帕鲁》七折 75.6 元、《雾锁王国》新史低，持续至 9 月 8 日",
+    "link": "https://www.ithome.com/0/996/688.htm",
     "date": "Mon, 31 Aug 2026",
-    "img": "https://img.ithome.com/newsuploadfiles/2026/8/eb1c20f3-85b4-4a30-89d2-8d10ac47c218.jpg?x-bce-process=image/format,f_auto",
-    "src": "IT之家"
-   },
-   {
-    "title": "华硕灵耀 14 骁龙版笔记本首销：骁龙 X 处理器，16GB+512GB 售 6999 元",
-    "link": "https://www.ithome.com/0/996/673.htm",
-    "date": "Mon, 31 Aug 2026",
-    "img": "https://img.ithome.com/newsuploadfiles/2026/8/4599a46a-c6d0-422a-973c-9f1b3fe9ee78.jpg?x-bce-process=image/format,f_auto",
-    "src": "IT之家"
-   },
-   {
-    "title": "特斯拉 FSD 即将迎来重大升级：马斯克称“避坑”功能很快上线",
-    "link": "https://www.ithome.com/0/996/672.htm",
-    "date": "Mon, 31 Aug 2026",
-    "img": "https://img.ithome.com/newsuploadfiles/2026/1/023e55fe-a725-43c8-8bcd-d8e734504ee0.jpg?x-bce-process=image/format,f_auto",
-    "src": "IT之家"
-   },
-   {
-    "title": "创维推出 G24 GT3 显示器：23.8 英寸 FHD 310Hz FastIPS，首发补贴价 599 元",
-    "link": "https://www.ithome.com/0/996/671.htm",
-    "date": "Mon, 31 Aug 2026",
-    "img": "https://img.ithome.com/newsuploadfiles/2026/8/6c7987dd-6b50-40ed-96e1-f1110bfca7bf.jpg?x-bce-process=image/format,f_auto",
+    "img": "https://img.ithome.com/newsuploadfiles/2026/9/5b968cf7-eb47-4d40-be3f-6eb259ae7fc6.png",
     "src": "IT之家"
    }
   ],
   "finance": [
    {
-    "title": "ChatGPT、Reddit、Roblox被纳入欧盟“超级平台”监管，违规最高罚全球营收6%",
-    "link": "https://wallstreetcn.com/articles/3780728",
+    "title": "英伟达入股联发科提振科技板块，联发科股价上涨9.9%，中东局势升温压制亚洲债市",
+    "link": "https://wallstreetcn.com/articles/3780783",
+    "date": "Tue, 01 Sep 2026",
+    "img": "https://wpimg-wscn.awtmt.com/6c74fdbe-e2f3-4a7a-8fd7-88bf129761d8.png",
+    "src": "华尔街见闻"
+   },
+   {
+    "title": "最坏的时候过去了，但美团还没到高兴的时候？",
+    "link": "https://wallstreetcn.com/articles/3780780",
     "date": "Tue, 01 Sep 2026",
     "img": "",
     "src": "华尔街见闻"
    },
    {
-    "title": "成品油涨幅远超原油：高盛把美国柴油利润预期上调逾一倍",
-    "link": "https://wallstreetcn.com/articles/3780721",
+    "title": "“2026最准”的摩根大通交易台“再变”：结束6月以来看多，对美股转为“战术谨慎”",
+    "link": "https://wallstreetcn.com/articles/3780777",
+    "date": "Tue, 01 Sep 2026",
+    "img": "https://wpimg-wscn.awtmt.com/f5aaf349-e913-44bd-8a0f-fc9bf0abd552.jpeg",
+    "src": "华尔街见闻"
+   },
+   {
+    "title": "高盛将人形机器人市场规模预测上调4倍，电商仓库和汽车生产线最快应用",
+    "link": "https://wallstreetcn.com/articles/3780779",
+    "date": "Tue, 01 Sep 2026",
+    "img": "https://wpimg-wscn.awtmt.com/937bf2fa-08a9-48b8-9011-c6354f7a9612.png",
+    "src": "华尔街见闻"
+   },
+   {
+    "title": "英伟达当“红娘”，Anthropic与“AI云”Lamda达成350亿美元“算力协议”",
+    "link": "https://wallstreetcn.com/articles/3780775",
     "date": "Tue, 01 Sep 2026",
     "img": "",
     "src": "华尔街见闻"
    },
    {
-    "title": "九月，标普500将迎“最差月份”：AI板块疲态未消，分析师转向谨慎",
-    "link": "https://wallstreetcn.com/articles/3780753",
+    "title": "美国在G20抛出“化债方案”：贝森特、沃什齐声呼吁“走出困境的唯一途径是增长”",
+    "link": "https://wallstreetcn.com/articles/3780776",
     "date": "Tue, 01 Sep 2026",
     "img": "",
     "src": "华尔街见闻"
    },
    {
-    "title": "[东吴证券][百诚医药]2026半年报点评：CDMO与成果转化高增，创新管线持续丰富",
-    "link": "https://data.eastmoney.com/report/info/AP202608311828835983.html",
-    "date": "Sun, 30 Aug 2026",
-    "img": "",
-    "src": "东方财富"
-   },
-   {
-    "title": "[东吴证券][重药控股]2026半年报点评：零售板块增速亮眼，重庆药友持续贡献收益",
-    "link": "https://data.eastmoney.com/report/info/AP202608311828835694.html",
-    "date": "Sun, 30 Aug 2026",
-    "img": "",
-    "src": "东方财富"
-   },
-   {
-    "title": "[东吴证券][阳光电源]2026年半年报点评：储能出货全球领先、AI电源生态潜力可期",
-    "link": "https://data.eastmoney.com/report/info/AP202608311828835589.html",
-    "date": "Sun, 30 Aug 2026",
-    "img": "",
-    "src": "东方财富"
-   },
-   {
-    "title": "[东吴证券][徐工机械]2026年中报点评：2026H1海外收入同比+21%，新能源与矿山机械打开成长空间",
-    "link": "https://data.eastmoney.com/report/info/AP202608311828835138.html",
-    "date": "Sun, 30 Aug 2026",
-    "img": "",
-    "src": "东方财富"
-   },
-   {
-    "title": "[东吴证券][中联重科]2026年中报点评：汇率波动导致盈利能力短期承压，Q3起有望逐步缓解",
-    "link": "https://data.eastmoney.com/report/info/AP202608311828834813.html",
-    "date": "Sun, 30 Aug 2026",
-    "img": "",
-    "src": "东方财富"
-   },
-   {
-    "title": "[国信证券][祥生医疗]营收保持增长，智能化与全球化持续推进",
-    "link": "https://data.eastmoney.com/report/info/AP202608311828832889.html",
-    "date": "Sun, 30 Aug 2026",
-    "img": "",
-    "src": "东方财富"
-   },
-   {
-    "title": "[国信证券][焦点科技]上半年收入增长稳健，AI外贸应用持续贡献增量",
-    "link": "https://data.eastmoney.com/report/info/AP202608311828832888.html",
-    "date": "Sun, 30 Aug 2026",
-    "img": "",
-    "src": "东方财富"
-   },
-   {
-    "title": "[国信证券][圣邦股份]二季度收入和归母净利润创季度新高，收入规模效应加速利润释放",
-    "link": "https://data.eastmoney.com/report/info/AP202608311828832870.html",
-    "date": "Sun, 30 Aug 2026",
-    "img": "",
-    "src": "东方财富"
-   },
-   {
-    "title": "[西南证券][海创药业]2026半年报点评：氘恩扎鲁胺持续放量，管线值得期待",
-    "link": "https://data.eastmoney.com/report/info/AP202608311828831608.html",
-    "date": "Sun, 30 Aug 2026",
-    "img": "",
-    "src": "东方财富"
-   },
-   {
-    "title": "[西南证券][中信金属]2026年中报点评：矿山权益释放，有色金属强势放量",
-    "link": "https://data.eastmoney.com/report/info/AP202608311828831539.html",
-    "date": "Sun, 30 Aug 2026",
-    "img": "",
-    "src": "东方财富"
-   },
-   {
-    "title": "[西南证券][三全食品]2026年中报点评：Q2直营渠道增速亮眼，定制化业务表现出色",
-    "link": "https://data.eastmoney.com/report/info/AP202608311828831533.html",
-    "date": "Sun, 30 Aug 2026",
-    "img": "",
-    "src": "东方财富"
-   },
-   {
-    "title": "[西南证券][苏美达]2026年半年报点评：双链协同平滑周期，船舶订单饱满",
-    "link": "https://data.eastmoney.com/report/info/AP202608311828831485.html",
-    "date": "Sun, 30 Aug 2026",
-    "img": "",
-    "src": "东方财富"
-   },
-   {
-    "title": "[西南证券][呈和科技]2026年半年报点评：高分子材料助剂龙头，加快电子材料产业布局",
-    "link": "https://data.eastmoney.com/report/info/AP202608311828831461.html",
-    "date": "Sun, 30 Aug 2026",
-    "img": "",
-    "src": "东方财富"
-   },
-   {
-    "title": "[华鑫证券][水井坊]公司事件点评报告：继续出清，主动去库存",
-    "link": "https://data.eastmoney.com/report/info/AP202608311828831433.html",
-    "date": "Sun, 30 Aug 2026",
-    "img": "",
-    "src": "东方财富"
-   },
-   {
-    "title": "[西南证券][康弘药业]2026中报点评：业绩承压，创新管线带来长期增量",
-    "link": "https://data.eastmoney.com/report/info/AP202608311828831418.html",
-    "date": "Sun, 30 Aug 2026",
-    "img": "",
-    "src": "东方财富"
-   },
-   {
-    "title": "[西南证券][科伦药业]2026半年报点评：传统业务承压，创新管线加速兑现",
-    "link": "https://data.eastmoney.com/report/info/AP202608311828831376.html",
-    "date": "Sun, 30 Aug 2026",
-    "img": "",
-    "src": "东方财富"
-   },
-   {
-    "title": "[西南证券][吉峰科技]2026年中报点评：低空业务逐渐打开局面，上半年利润实现增长",
-    "link": "https://data.eastmoney.com/report/info/AP202608311828831328.html",
-    "date": "Sun, 30 Aug 2026",
-    "img": "",
-    "src": "东方财富"
-   },
-   {
-    "title": "[中邮证券][龙佰集团]Q2盈利环比显著修复，海外布局加速落地",
-    "link": "https://data.eastmoney.com/report/info/AP202608311828830922.html",
-    "date": "Sun, 30 Aug 2026",
-    "img": "",
-    "src": "东方财富"
-   },
-   {
-    "title": "[中邮证券][鸿路钢构]Q2吨盈利改善显著，下半年盈利有望持续提升",
-    "link": "https://data.eastmoney.com/report/info/AP202608311828830898.html",
-    "date": "Sun, 30 Aug 2026",
-    "img": "",
-    "src": "东方财富"
-   },
-   {
-    "title": "[中邮证券][金诚信]矿服盈利修复+铜价上涨，业绩超预期",
-    "link": "https://data.eastmoney.com/report/info/AP202608311828830885.html",
-    "date": "Sun, 30 Aug 2026",
-    "img": "",
-    "src": "东方财富"
-   },
-   {
-    "title": "[中邮证券][格科微]高像素CIS出货持续增长",
-    "link": "https://data.eastmoney.com/report/info/AP202608311828830880.html",
-    "date": "Sun, 30 Aug 2026",
-    "img": "",
-    "src": "东方财富"
-   },
-   {
-    "title": "[中邮证券][德业股份]逆变器海外需求高景气，电池包业务增长亮眼",
-    "link": "https://data.eastmoney.com/report/info/AP202608311828830875.html",
-    "date": "Sun, 30 Aug 2026",
-    "img": "",
-    "src": "东方财富"
-   },
-   {
-    "title": "[开源证券][天坛生物]公司信息更新报告：2026上半年业绩承压，在研管线进展顺利",
-    "link": "https://data.eastmoney.com/report/info/AP202608311828830871.html",
-    "date": "Sun, 30 Aug 2026",
-    "img": "",
-    "src": "东方财富"
-   },
-   {
-    "title": "[中邮证券][巨化股份]制冷剂价格中枢保持高位，氟化工长景气延续",
-    "link": "https://data.eastmoney.com/report/info/AP202608311828830868.html",
-    "date": "Sun, 30 Aug 2026",
-    "img": "",
-    "src": "东方财富"
-   },
-   {
-    "title": "[太平洋][大元泵业]大元泵业：2026Q2收入业绩承压，欧洲热泵和液冷业务逆势增长",
-    "link": "https://data.eastmoney.com/report/info/AP202608311828830641.html",
-    "date": "Sun, 30 Aug 2026",
-    "img": "",
-    "src": "东方财富"
-   },
-   {
-    "title": "[太平洋][海尔智家]海尔智家：2026Q2收入增速回正，智慧暖通业务实现逆势增长",
-    "link": "https://data.eastmoney.com/report/info/AP202608311828830613.html",
-    "date": "Sun, 30 Aug 2026",
-    "img": "",
-    "src": "东方财富"
-   },
-   {
-    "title": "[开源证券][龙旗科技]公司信息更新报告：Q2业绩环比显著修复，并购打造AI端侧与AIDC新引擎",
-    "link": "https://data.eastmoney.com/report/info/AP202608311828830466.html",
-    "date": "Sun, 30 Aug 2026",
-    "img": "",
-    "src": "东方财富"
-   },
-   {
-    "title": "[东吴证券][中国银河]2026年中报点评：归母净利润同比+20%，财富业务扛起增长大旗",
-    "link": "https://data.eastmoney.com/report/info/AP202608311828828804.html",
-    "date": "Sun, 30 Aug 2026",
-    "img": "",
-    "src": "东方财富"
-   },
-   {
-    "title": "[信达证券][林洋能源]业绩稳步提升，储能海外欧洲、东南亚双线突破",
-    "link": "https://data.eastmoney.com/report/info/AP202608311828828630.html",
-    "date": "Sun, 30 Aug 2026",
-    "img": "",
-    "src": "东方财富"
-   },
-   {
-    "title": "[信达证券][匠心家居]聚焦高质量业务，发展边界延展",
-    "link": "https://data.eastmoney.com/report/info/AP202608311828828620.html",
-    "date": "Sun, 30 Aug 2026",
-    "img": "",
-    "src": "东方财富"
-   },
-   {
-    "title": "[东吴证券][绿的谐波]2026中报点评：业绩稳健增长，机器人行业高景气驱动谐波减速器龙头成长",
-    "link": "https://data.eastmoney.com/report/info/AP202608311828827701.html",
-    "date": "Sun, 30 Aug 2026",
-    "img": "",
-    "src": "东方财富"
-   },
-   {
-    "title": "[国元证券][巨人网络]2026年中报点评：业绩高增长，《超自然行动组》DAU持续攀升",
-    "link": "https://data.eastmoney.com/report/info/AP202608311828827505.html",
-    "date": "Sun, 30 Aug 2026",
-    "img": "",
-    "src": "东方财富"
-   },
-   {
-    "title": "[中银证券][佰仁医疗]利润短期承压，胶原蛋白新业务逐步放量",
-    "link": "https://data.eastmoney.com/report/info/AP202608311828824290.html",
-    "date": "Sun, 30 Aug 2026",
-    "img": "",
-    "src": "东方财富"
-   },
-   {
-    "title": "Anthropic超级IPO在即，美国IPO市场掀起“抢跑潮”",
-    "link": "https://wallstreetcn.com/articles/3780749",
-    "date": "Mon, 31 Aug 2026",
+    "title": "日媒称：贝森特“告知”日本官员“加息是必要的”",
+    "link": "https://wallstreetcn.com/articles/3780772",
+    "date": "Tue, 01 Sep 2026",
     "img": "",
     "src": "华尔街见闻"
    },
    {
-    "title": "AMD、思科联手沙特HUMAIN：AI算力基础设施正式上线，2030年目标1GW",
-    "link": "https://wallstreetcn.com/articles/3780750",
-    "date": "Mon, 31 Aug 2026",
+    "title": "回应数据中心“仇恨潮”，特朗普：反对的美国人“最终会落后贫穷”",
+    "link": "https://wallstreetcn.com/articles/3780771",
+    "date": "Tue, 01 Sep 2026",
     "img": "",
     "src": "华尔街见闻"
    },
    {
-    "title": "营收站上20亿元后，地平线等待“大众们”起量",
-    "link": "https://wallstreetcn.com/articles/3780748",
-    "date": "Mon, 31 Aug 2026",
-    "img": "",
+    "title": "今年埃森哲跌27%、凯捷跌31%！IT咨询巨头正面临与AI的决战",
+    "link": "https://wallstreetcn.com/articles/3780773",
+    "date": "Tue, 01 Sep 2026",
+    "img": "https://wpimg-wscn.awtmt.com/e814b179-41e3-4c77-9f30-e9bf7c916f23.png",
     "src": "华尔街见闻"
    },
    {
-    "title": "沃什鹰派发言提振加息预期，美股下跌，10年期美债收益率创2025年1月以来新高，中东局势升温油价急涨",
+    "title": "华尔街见闻早餐FM-Radio | 2026年9月1日",
+    "link": "https://wallstreetcn.com/articles/3780767",
+    "date": "Tue, 01 Sep 2026",
+    "img": "https://wdl-wscn.awtmt.com/2ed0c8c8-fb82-499d-b81c-3fd1de114eae",
+    "src": "华尔街见闻"
+   },
+   {
+    "title": "美伊局势升级叠加鹰派预期，原油大涨，美股8月收官两连跌，芯片指数逆市反弹",
     "link": "https://wallstreetcn.com/articles/3780702",
-    "date": "Mon, 31 Aug 2026",
-    "img": "https://wpimg-wscn.awtmt.com/8dac98f3-4d86-45cc-953b-afe551895aa7.png",
+    "date": "Tue, 01 Sep 2026",
+    "img": "https://wpimg-wscn.awtmt.com/48b05688-cd64-4ba9-ad07-6dba44bb52fd.jpeg",
     "src": "华尔街见闻"
    },
    {
-    "title": "英伟达拟斥资35亿美元入股联发科，进一步扩张AI芯片生态",
-    "link": "https://wallstreetcn.com/articles/3780746",
-    "date": "Mon, 31 Aug 2026",
-    "img": "https://wpimg-wscn.awtmt.com/e9a0ad39-7a5e-4937-bf3e-e26279e355b9.png",
-    "src": "华尔街见闻"
-   },
-   {
-    "title": "ChatGPT广告业务年化营收破10亿美元，OpenAI再添变现引擎",
-    "link": "https://wallstreetcn.com/articles/3780744",
-    "date": "Mon, 31 Aug 2026",
+    "title": "苹果诉OpenAI挖出新证据：前工程师窃电路图并令同事销毁证据",
+    "link": "https://wallstreetcn.com/articles/3780770",
+    "date": "Tue, 01 Sep 2026",
     "img": "",
     "src": "华尔街见闻"
    },
    {
-    "title": "霍尔木兹局势再升级：超级油轮疑遭水雷袭击，特朗普威胁“狠狠打击”，布油突破91美元关口",
-    "link": "https://wallstreetcn.com/articles/3780742",
-    "date": "Mon, 31 Aug 2026",
-    "img": "https://wpimg-wscn.awtmt.com/db3222c8-1b67-4e83-a1af-abb058b85035.png",
+    "title": "亚马逊遭FTC联合22州起诉：被指操纵广告竞价，5年多收广告主超200亿美元",
+    "link": "https://wallstreetcn.com/articles/3780768",
+    "date": "Tue, 01 Sep 2026",
+    "img": "https://wpimg-wscn.awtmt.com/39c47d9a-ecc1-49c1-b1ab-37300c08c821.png",
     "src": "华尔街见闻"
    },
    {
-    "title": "营收增76%，Momenta离盈亏平衡还有多远？",
-    "link": "https://wallstreetcn.com/articles/3780741",
-    "date": "Mon, 31 Aug 2026",
+    "title": "沃什鹰派发言后，特朗普：“加息”是荒谬的，沃什会做他必须做的事",
+    "link": "https://wallstreetcn.com/articles/3780764",
+    "date": "Tue, 01 Sep 2026",
     "img": "",
     "src": "华尔街见闻"
    },
    {
-    "title": "印度二季度GDP增长7.8%超预期：制造业与投资强劲，信贷增速创十年来新高",
-    "link": "https://wallstreetcn.com/articles/3780739",
-    "date": "Mon, 31 Aug 2026",
+    "title": "美元连跌两月，美国财政部回购逼退投机多头，沃什鹰派仅换来一日反弹",
+    "link": "https://wallstreetcn.com/articles/3780763",
+    "date": "Tue, 01 Sep 2026",
+    "img": "https://wpimg-wscn.awtmt.com/e526dfb6-9d86-443e-b969-d9bae1af93cc.png",
+    "src": "华尔街见闻"
+   },
+   {
+    "title": "新兴市场股市迎来2004年以来最强八月，美元贬值交易助推资金转向",
+    "link": "https://wallstreetcn.com/articles/3780759",
+    "date": "Tue, 01 Sep 2026",
+    "img": "https://wpimg-wscn.awtmt.com/d076bb80-60e4-41c8-b7ed-07880c05d4fc.png",
+    "src": "华尔街见闻"
+   },
+   {
+    "title": "库克卸任苹果CEO：致全员信告别15年掌舵岁月，称将怀念这份工作",
+    "link": "https://wallstreetcn.com/articles/3780762",
+    "date": "Tue, 01 Sep 2026",
     "img": "",
     "src": "华尔街见闻"
    },
    {
-    "title": "负债降本难抵资产收益压力 兰州银行上半年净利下行8.95%",
-    "link": "https://wallstreetcn.com/articles/3780738",
-    "date": "Mon, 31 Aug 2026",
+    "title": "10年期美债收益率创近20个月新高，沃什放鹰叠加油价反弹，加息预期再重估",
+    "link": "https://wallstreetcn.com/articles/3780761",
+    "date": "Tue, 01 Sep 2026",
+    "img": "https://wpimg-wscn.awtmt.com/6e171781-7da6-4f4a-99b1-4c71bf23e40e.jpeg",
+    "src": "华尔街见闻"
+   },
+   {
+    "title": "伊朗喊话美国重返停火备忘录，万斯称特朗普发轰炸哈尔克岛视频在向伊“传递信息”",
+    "link": "https://wallstreetcn.com/articles/3780760",
+    "date": "Tue, 01 Sep 2026",
     "img": "",
     "src": "华尔街见闻"
    },
    {
-    "title": "美债是挑战，欧债是危机——下一个主权债务风暴或在欧洲",
-    "link": "https://wallstreetcn.com/articles/3780735",
-    "date": "Mon, 31 Aug 2026",
-    "img": "https://wpimg-wscn.awtmt.com/1301318f-628f-49bc-8e8f-fafdfe965c2d.png",
-    "src": "华尔街见闻"
-   },
-   {
-    "title": "战争冲击财政，沙特寻求至少80亿美元贷款",
-    "link": "https://wallstreetcn.com/articles/3780730",
-    "date": "Mon, 31 Aug 2026",
+    "title": "农产品创十四年最大单月涨幅：战争叠加厄尔尼诺，食品通胀担忧升温",
+    "link": "https://wallstreetcn.com/articles/3780758",
+    "date": "Tue, 01 Sep 2026",
     "img": "",
     "src": "华尔街见闻"
    },
    {
-    "title": "Kimi向微软、亚马逊、谷歌要30%分成，开源模型开始“海外收租”了",
-    "link": "https://wallstreetcn.com/articles/3780733",
-    "date": "Mon, 31 Aug 2026",
-    "img": "https://wpimg-wscn.awtmt.com/7966b9a7-9b04-4139-a249-9766a85238cb.jpeg",
+    "title": "Wrightson：美国长期国债回购规模或于本周四前确认",
+    "link": "https://wallstreetcn.com/articles/3780757",
+    "date": "Tue, 01 Sep 2026",
+    "img": "https://wpimg-wscn.awtmt.com/3ea3d76d-d0e5-487b-9cb4-777cdc9b845e.png",
     "src": "华尔街见闻"
    },
    {
-    "title": "云端商业化提速，智谱上半年营收同比增近400%，开放平台及API收入暴增2736%｜财报见闻",
-    "link": "https://wallstreetcn.com/articles/3780732",
-    "date": "Mon, 31 Aug 2026",
-    "img": "https://wpimg-wscn.awtmt.com/d6b3f789-2ad8-462c-ae80-6e2c4be74540.png",
+    "title": "特斯拉、英伟达领涨“七巨头”， 科技股内部分化",
+    "link": "https://wallstreetcn.com/articles/3780756",
+    "date": "Tue, 01 Sep 2026",
+    "img": "https://wpimg-wscn.awtmt.com/60828b9c-0e68-4bb9-bf15-37954821e81f.png",
     "src": "华尔街见闻"
+   },
+   {
+    "title": "华为上半年营收同比增10%至4678亿，归母净利234亿，研发投入超1200亿｜财报见闻",
+    "link": "https://wallstreetcn.com/articles/3780724",
+    "date": "Mon, 31 Aug 2026",
+    "img": "https://wpimg-wscn.awtmt.com/172a02b9-6c5b-44db-a08a-1df46b3a856c.png",
+    "src": "华尔街见闻"
+   },
+   {
+    "title": "沪指低开高走收涨0.9%，液冷服务器、传媒双线爆发，港股AI大模型股午后大涨、MINIMAX飙升17%",
+    "link": "https://wallstreetcn.com/articles/3780681",
+    "date": "Mon, 31 Aug 2026",
+    "img": "https://wpimg-wscn.awtmt.com/8d0eab68-f20c-41f2-85ec-80db8fd8f10d.png",
+    "src": "华尔街见闻"
+   },
+   {
+    "title": "[开源证券][兖矿能源]公司信息更新报告：煤炭煤化工盈利共振，多元资产布局强化增长动能",
+    "link": "https://data.eastmoney.com/report/info/AP202609011828850023.html",
+    "date": "Mon, 31 Aug 2026",
+    "img": "",
+    "src": "东方财富"
+   },
+   {
+    "title": "[东海证券][特宝生物]公司简评报告：核心产品放量，Q2业绩提速",
+    "link": "https://data.eastmoney.com/report/info/AP202609011828848267.html",
+    "date": "Mon, 31 Aug 2026",
+    "img": "",
+    "src": "东方财富"
+   },
+   {
+    "title": "[山西证券][山煤国际]2026年半年报点评：量价齐升，业绩大幅增长",
+    "link": "https://data.eastmoney.com/report/info/AP202609011828847080.html",
+    "date": "Mon, 31 Aug 2026",
+    "img": "",
+    "src": "东方财富"
+   },
+   {
+    "title": "[西南证券][三峰环境]2026年中报点评：26H1运营业务稳健增长，经营现金流改善",
+    "link": "https://data.eastmoney.com/report/info/AP202609011828846995.html",
+    "date": "Mon, 31 Aug 2026",
+    "img": "",
+    "src": "东方财富"
+   },
+   {
+    "title": "[西南证券][珠江啤酒]2026年中报点评：26Q2实现量价齐升，结构升级稳步推进",
+    "link": "https://data.eastmoney.com/report/info/AP202609011828846972.html",
+    "date": "Mon, 31 Aug 2026",
+    "img": "",
+    "src": "东方财富"
+   },
+   {
+    "title": "[山西证券][莲花控股]公司利润高增，主业+第二曲线贡献增量",
+    "link": "https://data.eastmoney.com/report/info/AP202609011828846958.html",
+    "date": "Mon, 31 Aug 2026",
+    "img": "",
+    "src": "东方财富"
+   },
+   {
+    "title": "[西南证券][伊利股份]2026中报点评：液奶企稳冷饮提速，减值拖累Q2利润",
+    "link": "https://data.eastmoney.com/report/info/AP202609011828846950.html",
+    "date": "Mon, 31 Aug 2026",
+    "img": "",
+    "src": "东方财富"
+   },
+   {
+    "title": "[西南证券][招商南油]2026年中报点评：营收利润双增长，完成重新上市以来首次现金分红",
+    "link": "https://data.eastmoney.com/report/info/AP202609011828846939.html",
+    "date": "Mon, 31 Aug 2026",
+    "img": "",
+    "src": "东方财富"
+   },
+   {
+    "title": "[山西证券][永泰能源]焦煤业务利润修复，海则滩煤矿项目可期",
+    "link": "https://data.eastmoney.com/report/info/AP202609011828846938.html",
+    "date": "Mon, 31 Aug 2026",
+    "img": "",
+    "src": "东方财富"
+   },
+   {
+    "title": "[山西证券][威孚高科]盈利能力稳健提升，新业务多点突破",
+    "link": "https://data.eastmoney.com/report/info/AP202609011828846936.html",
+    "date": "Mon, 31 Aug 2026",
+    "img": "",
+    "src": "东方财富"
+   },
+   {
+    "title": "[山西证券][兖矿能源]煤炭量价齐升，盈利弹性凸显",
+    "link": "https://data.eastmoney.com/report/info/AP202609011828846928.html",
+    "date": "Mon, 31 Aug 2026",
+    "img": "",
+    "src": "东方财富"
+   },
+   {
+    "title": "[西南证券][天味食品]2026年中报点评：Q2主业动销延续修复，多品牌协同贡献增量",
+    "link": "https://data.eastmoney.com/report/info/AP202609011828846916.html",
+    "date": "Mon, 31 Aug 2026",
+    "img": "",
+    "src": "东方财富"
+   },
+   {
+    "title": "[西南证券][顺丰控股]2026年中报点评：上半年营收实现增长，进一步强化股东回报",
+    "link": "https://data.eastmoney.com/report/info/AP202609011828846868.html",
+    "date": "Mon, 31 Aug 2026",
+    "img": "",
+    "src": "东方财富"
+   },
+   {
+    "title": "[东吴证券][科士达]2026半年报点评：Q2数据中心加速，海外ODM+工商储驱动增长",
+    "link": "https://data.eastmoney.com/report/info/AP202609011828846679.html",
+    "date": "Mon, 31 Aug 2026",
+    "img": "",
+    "src": "东方财富"
+   },
+   {
+    "title": "[西南证券][马应龙]2026年半年报点评：营收温和增长，肛肠主业保持稳健",
+    "link": "https://data.eastmoney.com/report/info/AP202609011828846638.html",
+    "date": "Mon, 31 Aug 2026",
+    "img": "",
+    "src": "东方财富"
+   },
+   {
+    "title": "[西南证券][青岛啤酒]2026中报点评：26Q2销量承压，结构升级带动盈利提升",
+    "link": "https://data.eastmoney.com/report/info/AP202609011828846597.html",
+    "date": "Mon, 31 Aug 2026",
+    "img": "",
+    "src": "东方财富"
+   },
+   {
+    "title": "[西南证券][海天味业]2026年中报点评：26H1稳健增长，线上渠道延续高增",
+    "link": "https://data.eastmoney.com/report/info/AP202609011828846593.html",
+    "date": "Mon, 31 Aug 2026",
+    "img": "",
+    "src": "东方财富"
+   },
+   {
+    "title": "[西南证券][华润三九]2026年半年报点评：上半年利润承压",
+    "link": "https://data.eastmoney.com/report/info/AP202609011828846588.html",
+    "date": "Mon, 31 Aug 2026",
+    "img": "",
+    "src": "东方财富"
+   },
+   {
+    "title": "[开源证券][建发股份]公司信息更新报告：归母净利润同比增长，美凯龙扭亏贡献主要增量",
+    "link": "https://data.eastmoney.com/report/info/AP202609011828846495.html",
+    "date": "Mon, 31 Aug 2026",
+    "img": "",
+    "src": "东方财富"
+   },
+   {
+    "title": "[国金证券][涛涛车业]电动出行延续高增，北美本土化能力持续强化",
+    "link": "https://data.eastmoney.com/report/info/AP202609011828846442.html",
+    "date": "Mon, 31 Aug 2026",
+    "img": "",
+    "src": "东方财富"
+   },
+   {
+    "title": "[国金证券][晨光股份]传统业务稳健，九木盈利改善",
+    "link": "https://data.eastmoney.com/report/info/AP202609011828846441.html",
+    "date": "Mon, 31 Aug 2026",
+    "img": "",
+    "src": "东方财富"
+   },
+   {
+    "title": "[国金证券][华东医药]医药工业整体稳健，创新研发持续推进",
+    "link": "https://data.eastmoney.com/report/info/AP202609011828846434.html",
+    "date": "Mon, 31 Aug 2026",
+    "img": "",
+    "src": "东方财富"
+   },
+   {
+    "title": "[国金证券][华旺科技]外销收入增长，下半年盈利有望改善",
+    "link": "https://data.eastmoney.com/report/info/AP202609011828846435.html",
+    "date": "Mon, 31 Aug 2026",
+    "img": "",
+    "src": "东方财富"
+   },
+   {
+    "title": "[开源证券][苏州高新]公司信息更新报告：投资收益驱动利润高增，销售拿地规模下降",
+    "link": "https://data.eastmoney.com/report/info/AP202609011828845497.html",
+    "date": "Mon, 31 Aug 2026",
+    "img": "",
+    "src": "东方财富"
+   },
+   {
+    "title": "[开源证券][比亚迪]公司信息更新报告：Q2业绩同环比高增，海外市场持续发力",
+    "link": "https://data.eastmoney.com/report/info/AP202609011828845494.html",
+    "date": "Mon, 31 Aug 2026",
+    "img": "",
+    "src": "东方财富"
+   },
+   {
+    "title": "[开源证券][神州数码]公司信息更新报告：业绩稳健增长，全域算力与Token生产能力增强",
+    "link": "https://data.eastmoney.com/report/info/AP202609011828845493.html",
+    "date": "Mon, 31 Aug 2026",
+    "img": "",
+    "src": "东方财富"
    }
   ],
   "game": [
    {
-    "title": "​Nicky Case 可探索的解释",
-    "link": "https://indienova.com/indie-game-news/sunset-sway-nicky-case-explorable-explanations/",
-    "date": "Thu, 27 Aug 2026",
+    "title": "本周 Steam 值得关注的游戏 08.31 - 09.06（二）",
+    "link": "https://indienova.com/indie-game-news/guide-2026-0831-0906-part-2/",
+    "date": "Tue, 01 Sep 2026",
     "img": "",
     "src": "indienova"
    },
    {
-    "title": "本周 Steam 值得关注的游戏 08.24 - 08.30（四）",
-    "link": "https://indienova.com/indie-game-news/guide-2026-0824-0830-part-4/",
-    "date": "Thu, 27 Aug 2026",
-    "img": "",
-    "src": "indienova"
-   },
-   {
-    "title": "Godot 4 入门教程：节点组织&节点继承、主角&UI 示例",
-    "link": "https://indienova.com/indie-game-development/liangxie-beginners-guide-to-godot-and-gdscript-part-2/",
-    "date": "Sun, 30 Aug 2026",
-    "img": "",
-    "src": "indienova"
-   },
-   {
-    "title": "itch 一周游戏汇：8月17日-8月23日（下）",
-    "link": "https://indienova.com/indie-game-news/itch-new-games-summary-of-last-week-2026-0817-0823-part2/",
-    "date": "Sun, 30 Aug 2026",
-    "img": "",
-    "src": "indienova"
-   },
-   {
-    "title": "糟糕的游戏设计",
-    "link": "https://indienova.com/indie-game-news/how-game-design-can-go-wrong/",
-    "date": "Sat, 29 Aug 2026",
-    "img": "",
-    "src": "indienova"
-   },
-   {
-    "title": "“00后”的游戏之路",
-    "link": "https://indienova.com/indie-game-development/the-game-dev-path-of-post-00s/",
-    "date": "Sat, 29 Aug 2026",
-    "img": "",
-    "src": "indienova"
-   },
-   {
-    "title": "本周 Steam 值得关注的游戏 08.31 - 09.06（一）",
-    "link": "https://indienova.com/indie-game-news/guide-2026-0831-0906-part-1/",
-    "date": "Mon, 31 Aug 2026",
-    "img": "",
-    "src": "indienova"
-   },
-   {
-    "title": "剑戟复兴，乐趣平平：小评《鬼武者：剑之道》",
-    "link": "https://www.gcores.com/articles/219022",
-    "date": "Mon, 31 Aug 2026",
-    "img": "https://image.gcores.com/b698c782efb3fbcfea3b62265a1420c0-3840-2160.jpg?x-oss-process=image/resize,limit_1,m_fill,w_626,h_292/quality,q_90",
+    "title": "育碧推出玩家社区平台，可抢先体验未公开项目",
+    "link": "https://www.gcores.com/articles/219077",
+    "date": "Tue, 01 Sep 2026",
+    "img": "https://image.gcores.com/84bd4e7cadcb4a53e790176d563fe60b-1920-1080.jpg?x-oss-process=image/resize,limit_1,m_fill,w_626,h_292/quality,q_90",
     "src": "机核"
    },
    {
-    "title": "中元故事会 2026：录到一半门把手动了一下！",
-    "link": "https://www.gcores.com/radios/218679",
-    "date": "Mon, 31 Aug 2026",
-    "img": "https://image.gcores.com/e74ccfba5e32ca15a84aa45f49aa56ab-1600-900.jpg?x-oss-process=image/resize,limit_1,m_fill,w_626,h_292/quality,q_90",
+    "title": "外星人的农场物语：合作模拟游戏《Farmageddon》正式公布",
+    "link": "https://www.gcores.com/articles/219076",
+    "date": "Tue, 01 Sep 2026",
+    "img": "https://image.gcores.com/78f4b15aef58ffd57c5f0ca200c7b445-920-430.jpg?x-oss-process=image/resize,limit_1,m_fill,w_626,h_292/quality,q_90",
     "src": "机核"
    },
    {
-    "title": "索尼State of Play发布会将于9月3日回归",
-    "link": "https://www.gcores.com/articles/219074",
-    "date": "Mon, 31 Aug 2026",
-    "img": "https://image.gcores.com/21eca6223fd323158f3e69f3fc30ceb6-664-373.webp?x-oss-process=image/resize,limit_1,m_fill,w_626,h_292/quality,q_90",
+    "title": "《庄园领主》销量突破400万，全新更新同步上线",
+    "link": "https://www.gcores.com/articles/219078",
+    "date": "Tue, 01 Sep 2026",
+    "img": "https://image.gcores.com/a19e14d8e5fe49b30c86d7d3a56eaa73-460-215.jpg?x-oss-process=image/resize,limit_1,m_fill,w_626,h_292/quality,q_90",
     "src": "机核"
    },
    {
-    "title": "欢迎留下你喜欢的生活节目选题【那我问你 8月号】",
-    "link": "https://www.gcores.com/radios/218676",
+    "title": "游戏创作者如何像乔治·马丁一样构建自己的创意世界？",
+    "link": "https://indienova.com/indie-game-development/how-can-game-creators-build-their-own-creative-worlds-like-george-rr-martin/",
     "date": "Mon, 31 Aug 2026",
-    "img": "https://image.gcores.com/1d00b013f7371f5dc713502e88ef60ff-1920-1080.jpg?x-oss-process=image/resize,limit_1,m_fill,w_626,h_292/quality,q_90",
-    "src": "机核"
-   },
-   {
-    "title": "《魔法门之英雄无敌III重制》过审：2026年8月份网络游戏审批信息公布",
-    "link": "https://www.gcores.com/articles/219073",
-    "date": "Mon, 31 Aug 2026",
-    "img": "https://image.gcores.com/b73daf67270b0bba23af16d76cc67431-800-389.webp?x-oss-process=image/resize,limit_1,m_fill,w_626,h_292/quality,q_90",
-    "src": "机核"
-   },
-   {
-    "title": "【传言】微软竞争压力加剧，索尼考虑推迟停产光盘",
-    "link": "https://www.gcores.com/articles/219046",
-    "date": "Mon, 31 Aug 2026",
-    "img": "https://image.gcores.com/bf7110c9e3d6bdd5df27e03749cc1a32-800-450.webp?x-oss-process=image/resize,limit_1,m_fill,w_626,h_292/quality,q_90",
-    "src": "机核"
-   },
-   {
-    "title": "观云模拟游戏《观云者》将于本周四发售",
-    "link": "https://www.gcores.com/articles/219041",
-    "date": "Mon, 31 Aug 2026",
-    "img": "https://image.gcores.com/bd78cc5d2e576d75e3524795ebe3ae64-460-215.jpg?x-oss-process=image/resize,limit_1,m_fill,w_626,h_292/quality,q_90",
-    "src": "机核"
-   },
-   {
-    "title": "本周 Steam 值得关注的游戏 08.24 - 08.30（五）",
-    "link": "https://indienova.com/indie-game-news/guide-2026-0824-0830-part-5/",
-    "date": "Fri, 28 Aug 2026",
     "img": "",
     "src": "indienova"
    },
    {
-    "title": "itch 一周游戏汇：8月17日-8月23日（上）",
-    "link": "https://indienova.com/indie-game-news/itch-new-games-summary-of-last-week-2026-0817-0823-part1/",
-    "date": "Fri, 28 Aug 2026",
-    "img": "",
-    "src": "indienova"
+    "title": "叙事种田游戏《蓝花物语》正式公布",
+    "link": "https://www.gcores.com/articles/219066",
+    "date": "Mon, 31 Aug 2026",
+    "img": "https://image.gcores.com/2956210a53649bb46b4f4aa70b35cec3-920-430.jpg?x-oss-process=image/resize,limit_1,m_fill,w_626,h_292/quality,q_90",
+    "src": "机核"
    },
    {
-    "title": "鬼武者：剑之道 媒体评分出炉：IGN 10分 GS 8分 mtc平均分：86",
+    "title": "和没有感情的合伙人西总聊聊天，录音笔VOL.775",
+    "link": "https://www.gcores.com/radios/219065",
+    "date": "Mon, 31 Aug 2026",
+    "img": "https://image.gcores.com/f38756a4eec15fc39d70f4d0d00f4a61-1600-900.jpg?x-oss-process=image/resize,limit_1,m_fill,w_626,h_292/quality,q_90",
+    "src": "机核"
+   },
+   {
+    "title": "全景拆解DeadLock",
+    "link": "https://www.gcores.com/articles/219031",
+    "date": "Mon, 31 Aug 2026",
+    "img": "https://image.gcores.com/d807472934ca1a4405498471b338bc25-1672-941.jpg?x-oss-process=image/resize,limit_1,m_fill,w_626,h_292/quality,q_90",
+    "src": "机核"
+   },
+   {
+    "title": "《Turok: Origins》现已公布完整加长版预告",
+    "link": "https://www.gcores.com/articles/219060",
+    "date": "Mon, 31 Aug 2026",
+    "img": "https://image.gcores.com/396a1b8da27c249875d51337f89b7d5a-1920-1080.jpg?x-oss-process=image/resize,limit_1,m_fill,w_626,h_292/quality,q_90",
+    "src": "机核"
+   },
+   {
+    "title": "海量更新：开学季《气球塔防6》56全新版本上线",
+    "link": "https://www.gcores.com/articles/219061",
+    "date": "Mon, 31 Aug 2026",
+    "img": "https://image.gcores.com/b1afda89db446cba1e1a99338d7fec39-1812-834.jpg?x-oss-process=image/resize,limit_1,m_fill,w_626,h_292/quality,q_90",
+    "src": "机核"
+   },
+   {
+    "title": "海信JUOS正式发布：行业首个家庭智能伴侣级AIOS",
+    "link": "https://www.gcores.com/articles/219062",
+    "date": "Mon, 31 Aug 2026",
+    "img": "https://image.gcores.com/7a3a7c64ec1d01cf1add0a100362f7ec-3360-1512.jpg?x-oss-process=image/resize,limit_1,m_fill,w_626,h_292/quality,q_90",
+    "src": "机核"
+   },
+   {
+    "title": "抗压、应变与终生动力：CZ 的人事和天命",
+    "link": "https://www.gcores.com/radios/219054",
+    "date": "Mon, 31 Aug 2026",
+    "img": "https://image.gcores.com/8ab5b0c1-b571-4479-abe2-a900befa29e5-1009-1009.png?x-oss-process=image/resize,limit_1,m_fill,w_626,h_292/quality,q_90",
+    "src": "机核"
+   },
+   {
+    "title": "V社出现大规模数据泄露，12TB内部游戏档案遭曝光",
+    "link": "https://www.gcores.com/articles/219049",
+    "date": "Mon, 31 Aug 2026",
+    "img": "https://image.gcores.com/d87eef2c82dd8e835dbe4ac6965d18fb-596-335.jpg?x-oss-process=image/resize,limit_1,m_fill,w_626,h_292/quality,q_90",
+    "src": "机核"
+   },
+   {
+    "title": "德国科隆游戏展开发者展机被盗事件频发，官方做出回应",
+    "link": "https://www.gcores.com/articles/219047",
+    "date": "Mon, 31 Aug 2026",
+    "img": "https://image.gcores.com/1dbf3ee95280ad50b7f0a1eef7a30d88-650-366.webp?x-oss-process=image/resize,limit_1,m_fill,w_626,h_292/quality,q_90",
+    "src": "机核"
+   },
+   {
+    "title": "收藏家路行己丨游戏收藏背后的门门道道",
+    "link": "https://www.gcores.com/radios/219052",
+    "date": "Mon, 31 Aug 2026",
+    "img": "https://image.gcores.com/77235788-de64-425c-8bf2-c76f0836f89d-4736-4736.png?x-oss-process=image/resize,limit_1,m_fill,w_626,h_292/quality,q_90",
+    "src": "机核"
+   },
+   {
+    "title": "2026年9月游戏推荐：秋季游戏攻势开幕",
+    "link": "https://bbs.a9vg.com/thread-9072413-1-1.html",
+    "date": "",
+    "img": "",
+    "src": "A9VG 社区"
+   },
+   {
+    "title": "顽皮狗：《星际异端先知》已完成过场动画拍摄",
+    "link": "https://bbs.a9vg.com/thread-9072409-1-1.html",
+    "date": "",
+    "img": "",
+    "src": "A9VG 社区"
+   },
+   {
+    "title": "《羊蹄山之魂》奇谭多人模式正式停更，上线仅仅两月",
+    "link": "https://bbs.a9vg.com/thread-9068170-1-1.html",
+    "date": "",
+    "img": "",
+    "src": "A9VG 社区"
+   },
+   {
+    "title": "鬼武者：剑之道 媒体评分出炉：IGN 10分 GS 8分 mtc平均分：85",
     "link": "https://bbs.a9vg.com/thread-9072404-1-1.html",
     "date": "",
     "img": "",
     "src": "A9VG 社区"
    },
    {
-    "title": "黎明行者之血 媒体评分出炉：IGN 9分 GS 8分 mtc平均分：83",
-    "link": "https://bbs.a9vg.com/thread-9072405-1-1.html",
+    "title": "GTA 6不会让玩家随时切换男女主，因为这样会不自然",
+    "link": "https://bbs.a9vg.com/thread-9072408-1-1.html",
     "date": "",
     "img": "",
     "src": "A9VG 社区"
    },
    {
-    "title": "《鬼武者 剑之道》评测：经典系列适应时代的新挑战",
-    "link": "https://bbs.a9vg.com/thread-9072403-1-1.html",
+    "title": "GTA6: R星曾计划让主角买菜补充冰箱，最终因过于复杂而砍掉",
+    "link": "https://bbs.a9vg.com/thread-9072382-1-1.html",
     "date": "",
     "img": "",
     "src": "A9VG 社区"
    },
    {
-    "title": "《漫威金刚狼》游戏介绍预告片",
-    "link": "https://bbs.a9vg.com/thread-9072320-1-1.html",
+    "title": "索尼音乐娱乐成为 GungHo（智龙迷城，格兰蒂亚，露娜） 最大股东",
+    "link": "https://bbs.a9vg.com/thread-9072334-1-1.html",
     "date": "",
     "img": "",
     "src": "A9VG 社区"
    },
    {
-    "title": "《合金装备合集2》将配信PS3原版以外的语种字幕",
-    "link": "https://bbs.a9vg.com/thread-9072119-1-1.html",
+    "title": "《鬼武者：剑之道》实体盘提前将近一周偷跑！",
+    "link": "https://bbs.a9vg.com/thread-9072384-1-1.html",
     "date": "",
     "img": "",
     "src": "A9VG 社区"
    },
    {
-    "title": "最新一期「State of Play」将于9月3日播出",
-    "link": "https://bbs.a9vg.com/thread-9072395-1-1.html",
+    "title": "《Fate/EXTRA Record》发行方变更 原总监退出开发",
+    "link": "https://bbs.a9vg.com/thread-9072387-1-1.html",
     "date": "",
     "img": "",
     "src": "A9VG 社区"
    },
    {
-    "title": "由于Xbox策略，索尼据称正考虑推迟推出纯数字版游戏",
-    "link": "https://bbs.a9vg.com/thread-9072355-1-1.html",
+    "title": "《昭和米国物语》难度：昭和男儿 &amp; 平成废宅 &amp; 令和巨婴",
+    "link": "https://bbs.a9vg.com/thread-9072333-1-1.html",
     "date": "",
     "img": "",
     "src": "A9VG 社区"
    },
    {
-    "title": "《队长小翼2 世界群星》简评：借风起势的“格斗”足球续作",
-    "link": "https://bbs.a9vg.com/thread-9072184-1-1.html",
+    "title": "共鸣：瘟疫传说传承 媒体评分出炉：IGN 6分 mtc平均分：80",
+    "link": "https://bbs.a9vg.com/thread-9072186-1-1.html",
     "date": "",
     "img": "",
     "src": "A9VG 社区"
    },
    {
-    "title": "《GTA 6》完整通关大约需要 80 小时",
-    "link": "https://bbs.a9vg.com/thread-9072299-1-1.html",
+    "title": "PS+会员9月份会免游戏阵容",
+    "link": "https://bbs.a9vg.com/thread-9072223-1-1.html",
     "date": "",
     "img": "",
     "src": "A9VG 社区"
    },
    {
-    "title": "GTA 6将提供无缝快速旅行：公交车,火车,出租车,专属App都可以",
-    "link": "https://bbs.a9vg.com/thread-9072347-1-1.html",
+    "title": "Rockstar North 联合工作室负责人：GTA 6早在 2015 年就开始开发",
+    "link": "https://bbs.a9vg.com/thread-9072383-1-1.html",
     "date": "",
     "img": "",
     "src": "A9VG 社区"
    },
    {
-    "title": "DLSS 5有破解版了！RTX 40系显卡也能用：纯软件锁限制",
-    "link": "https://bbs.a9vg.com/thread-9072308-1-1.html",
+    "title": "战火难掩她的美 叙事种田游戏《蓝花物语》正式公布",
+    "link": "https://bbs.a9vg.com/thread-9072390-1-1.html",
     "date": "",
     "img": "",
     "src": "A9VG 社区"
    },
    {
-    "title": "DLSS 5 让现实进入游戏",
-    "link": "https://bbs.a9vg.com/thread-9072267-1-1.html",
+    "title": "【喇叭之城】中文配音版上线",
+    "link": "https://bbs.a9vg.com/thread-9072385-1-1.html",
     "date": "",
     "img": "",
     "src": "A9VG 社区"
    },
    {
-    "title": "数毛社确认GTA6演示平台为标准版PS5，赞叹R星技术实力给予极高评价.",
-    "link": "https://bbs.a9vg.com/thread-9072303-1-1.html",
+    "title": "Switch 2可换电池版突然开卖：没有预告，直接上架",
+    "link": "https://bbs.a9vg.com/thread-9072228-1-1.html",
     "date": "",
     "img": "",
     "src": "A9VG 社区"
    },
    {
-    "title": "《最后生还者》设计师认为顽皮狗的游戏模式不可持续",
-    "link": "https://bbs.a9vg.com/thread-9072018-1-1.html",
+    "title": "《神鬼寓言》战斗游戏玩法演示",
+    "link": "https://bbs.a9vg.com/thread-9072318-1-1.html",
     "date": "",
     "img": "",
     "src": "A9VG 社区"
    },
    {
-    "title": "《GTA6》加长版预览视频",
-    "link": "https://bbs.a9vg.com/thread-9072247-1-1.html",
+    "title": "财报只字未提GeForce！NVIDIA游戏部门已成过去式",
+    "link": "https://bbs.a9vg.com/thread-9072359-1-1.html",
     "date": "",
     "img": "",
     "src": "A9VG 社区"
    },
    {
-    "title": "Rockstar再次确认GTA 6将如期发售",
-    "link": "https://bbs.a9vg.com/thread-9072346-1-1.html",
+    "title": "黑客扬言一旦被抓，《GTA6》完整PC版全球自动发布！",
+    "link": "https://bbs.a9vg.com/thread-9072035-1-1.html",
     "date": "",
     "img": "",
     "src": "A9VG 社区"
    },
    {
-    "title": "童话公主“黑化”复仇游戏《Swords &amp; Slippers》登陆Steam",
-    "link": "https://bbs.a9vg.com/thread-9071707-1-1.html",
+    "title": "《STRANGER THAN HEAVEN》TGS2026舞台活动迎来重磅嘉宾",
+    "link": "https://bbs.a9vg.com/thread-9072275-1-1.html",
     "date": "",
     "img": "",
     "src": "A9VG 社区"
    },
    {
-    "title": "巴西博主爆料《GTA6》所有主机30帧运行！首发无第一人称。",
-    "link": "https://bbs.a9vg.com/thread-9072254-1-1.html",
+    "title": "《合金装备 大师合集 Vol.2》今日全球正式推出",
+    "link": "https://bbs.a9vg.com/thread-9072218-1-1.html",
     "date": "",
     "img": "",
     "src": "A9VG 社区"
    },
    {
-    "title": "《疯狂出租车：极速环游》全新地图“德国”最新宣传片",
-    "link": "https://bbs.a9vg.com/thread-9072231-1-1.html",
+    "title": "《异于天堂》gamescom2026新试玩演示",
+    "link": "https://bbs.a9vg.com/thread-9072312-1-1.html",
     "date": "",
     "img": "",
     "src": "A9VG 社区"
    },
    {
-    "title": "世嘉官宣：P6将会出实体盘，且仅限PS5平台",
-    "link": "https://bbs.a9vg.com/thread-9072278-1-1.html",
+    "title": "《女神异闻录４ Revival》中文配音剧情宣传片公开",
+    "link": "https://bbs.a9vg.com/thread-9072196-1-1.html",
     "date": "",
     "img": "",
     "src": "A9VG 社区"
    },
    {
-    "title": "NVIDIA DLSS 5 神经渲染 DLL文件泄露",
-    "link": "https://bbs.a9vg.com/thread-9072255-1-1.html",
+    "title": "LinkedIn用户正以前所未有的速度从职位描述中删除“DEI”字样",
+    "link": "https://bbs.a9vg.com/thread-9072235-1-1.html",
     "date": "",
     "img": "",
     "src": "A9VG 社区"
    },
    {
-    "title": "国产本格推理游戏《山河旅探》现已登陆主机平台",
-    "link": "https://bbs.a9vg.com/thread-9072217-1-1.html",
+    "title": "前制作人：《龙腾世纪》在影障守护者之后短期内无新作",
+    "link": "https://bbs.a9vg.com/thread-9071234-1-1.html",
     "date": "",
     "img": "",
     "src": "A9VG 社区"
    },
    {
-    "title": "《索尼克赛车 交叉世界》联动 实机试玩介绍",
-    "link": "https://bbs.a9vg.com/thread-9072213-1-1.html",
+    "title": "《使命召唤：现代战争4》第二阶段公开试玩即将开启",
+    "link": "https://bbs.a9vg.com/thread-9072264-1-1.html",
     "date": "",
     "img": "",
     "src": "A9VG 社区"
    },
    {
-    "title": "PS5惨遭格斗赛事淘汰！比赛用机转投Xbox",
-    "link": "https://bbs.a9vg.com/thread-9072086-1-1.html",
-    "date": "",
-    "img": "",
-    "src": "A9VG 社区"
-   },
-   {
-    "title": "《永泉传说》即将推出DLC和主机版本",
-    "link": "https://bbs.a9vg.com/thread-9072236-1-1.html",
-    "date": "",
-    "img": "",
-    "src": "A9VG 社区"
-   },
-   {
-    "title": "GTA6分量十足一瞥公开，团队成员百感交集潸然泪下。",
-    "link": "https://bbs.a9vg.com/thread-9072282-1-1.html",
-    "date": "",
-    "img": "",
-    "src": "A9VG 社区"
-   },
-   {
-    "title": "《艾尔登法环 褪色者版》现已上市",
-    "link": "https://bbs.a9vg.com/thread-9072266-1-1.html",
+    "title": "幻想风国战型战略模拟游戏《幻想大陆战记 深渊》今日发售",
+    "link": "https://bbs.a9vg.com/thread-9072215-1-1.html",
     "date": "",
     "img": "",
     "src": "A9VG 社区"
@@ -1010,176 +1003,246 @@
   ],
   "product": [
    {
-    "title": "AI时代，产品经理的AI落地实操方法！",
-    "link": "https://www.woshipm.com/class/6456202.html",
+    "title": "龙虾还魂，2.0成飞书了！？",
+    "link": "https://www.woshipm.com/ai/6457798.html",
     "date": "",
     "img": "",
     "src": "人人都是产品经理"
    },
    {
-    "title": "AI颠覆社交是一个伪命题",
-    "link": "https://www.woshipm.com/ai/6457604.html",
+    "title": "SHEIN不再少年",
+    "link": "https://www.woshipm.com/it/6457766.html",
     "date": "",
     "img": "",
     "src": "人人都是产品经理"
    },
    {
-    "title": "200亿美元估值背后：Perplexity的真正战场不是搜索，而是默认入口",
-    "link": "https://www.woshipm.com/ai/6457478.html",
+    "title": "430万人每天打开一个 AI 看星盘，Midjourney 为什么买下了 Co–Star？",
+    "link": "https://www.woshipm.com/chuangye/6457108.html",
     "date": "",
     "img": "",
     "src": "人人都是产品经理"
    },
    {
-    "title": "办公Agent的下半场：生态整合、用户留存与商业化验证",
-    "link": "https://www.woshipm.com/ai/6457481.html",
+    "title": "看完一场“准点下班”黑客松，我想做一个公司下班榜单",
+    "link": "https://www.woshipm.com/pd/6457719.html",
     "date": "",
     "img": "",
     "src": "人人都是产品经理"
    },
    {
-    "title": "人工智能失忆症：为何AI总是忘记你的名字？",
-    "link": "https://www.woshipm.com/ai/6456841.html",
+    "title": "产品的“死生之地”：产品经理做产品定位",
+    "link": "https://www.woshipm.com/pmd/6457685.html",
     "date": "",
     "img": "",
     "src": "人人都是产品经理"
    },
    {
-    "title": "从 Sora 退场到实时交互，AI视频产品如何走向真实场景",
-    "link": "https://www.woshipm.com/ai/6453549.html",
+    "title": "零售电商行业的AI落地困境",
+    "link": "https://www.woshipm.com/ai/6457667.html",
     "date": "",
     "img": "",
     "src": "人人都是产品经理"
    },
    {
-    "title": "欺诈风控入门：三类风险、五段链路与电商实战案例",
-    "link": "https://www.woshipm.com/pd/6456661.html",
+    "title": "如何设计自然的具身人机交互",
+    "link": "https://www.woshipm.com/embodied/6457610.html",
     "date": "",
     "img": "",
     "src": "人人都是产品经理"
    },
    {
-    "title": "一款帮慢性病患者记住全部病史的 AI，8 个月获得 15 万下载",
-    "link": "https://www.woshipm.com/chuangye/6453455.html",
+    "title": "从 0 设计 AI 陪伴产品：陪伴产品的内核是什么？",
+    "link": "https://www.woshipm.com/pd/6457521.html",
     "date": "",
     "img": "",
     "src": "人人都是产品经理"
    },
    {
-    "title": "用AI谈恋爱，我劝你冷静：一场关于算计、博弈和身心俱疲的观察",
-    "link": "https://www.woshipm.com/ai/6456335.html",
+    "title": "拼多多AI时代的“自救”",
+    "link": "https://www.woshipm.com/it/6457151.html",
     "date": "",
     "img": "",
     "src": "人人都是产品经理"
    },
    {
-    "title": "如何做好任务管理：从任务入池到验收复盘",
-    "link": "https://www.woshipm.com/ai/6454995.html",
+    "title": "创立50年，进入大陆7年仅开7家店！Costco到底差哪了？",
+    "link": "https://www.woshipm.com/it/6457525.html",
     "date": "",
     "img": "",
     "src": "人人都是产品经理"
    },
    {
-    "title": "垂类App正在集体“消失”",
-    "link": "https://www.woshipm.com/it/6456479.html",
+    "title": "五大理由：AI时代为什么必须「重写」你的品牌战略",
+    "link": "https://www.woshipm.com/marketing/6457353.html",
     "date": "",
     "img": "",
     "src": "人人都是产品经理"
    },
    {
-    "title": "人形机器人，进入淘汰赛",
-    "link": "https://www.woshipm.com/embodied/6456396.html",
+    "title": "AI Native时代，产品经理到底在管什么？",
+    "link": "https://www.woshipm.com/ai/6457439.html",
     "date": "",
     "img": "",
     "src": "人人都是产品经理"
    },
    {
-    "title": "Vibe coding 避坑指南：为什么你总觉得AI在带偏你？",
-    "link": "https://www.woshipm.com/ai/6456350.html",
+    "title": "AIGC，闯进长片片场",
+    "link": "https://www.woshipm.com/ai/6457432.html",
     "date": "",
     "img": "",
     "src": "人人都是产品经理"
    },
    {
-    "title": "腾讯猛踩油门，混元追赶的127天",
-    "link": "https://www.woshipm.com/ai/6456417.html",
+    "title": "让AI融入表单，升级用户体验",
+    "link": "https://www.woshipm.com/pd/6438390.html",
     "date": "",
     "img": "",
     "src": "人人都是产品经理"
    },
    {
-    "title": "播放过亿、点赞百万，打工人的下饭综艺，换成了“草台班子”",
-    "link": "https://www.woshipm.com/it/6456332.html",
+    "title": "别陪聊了，你的豆包工作已经在工位报到了",
+    "link": "https://www.woshipm.com/ai/6457319.html",
     "date": "",
     "img": "",
     "src": "人人都是产品经理"
    },
    {
-    "title": "从人形概念到咖啡机器人，具身智能如何跨过商业化鸿沟",
-    "link": "https://www.woshipm.com/it/6453574.html",
+    "title": "AI标书工具进化史：从“能写”到“写好”再到“写得不一样”",
+    "link": "https://www.woshipm.com/ai/6457080.html",
     "date": "",
     "img": "",
     "src": "人人都是产品经理"
    },
    {
-    "title": "哦，原来家庭机器人，就是给音箱插几条腿",
-    "link": "https://www.woshipm.com/embodied/6456026.html",
+    "title": "为什么我们越来越不爱坐公交了？",
+    "link": "https://www.woshipm.com/it/6456930.html",
     "date": "",
     "img": "",
     "src": "人人都是产品经理"
    },
    {
-    "title": "产品经理如何搭建 CMS？从一条内容的流转开始",
-    "link": "https://www.woshipm.com/pd/6456277.html",
+    "title": "一家餐馆软件估值 23 亿美元，它想把网站、点单、营销和电话全包了",
+    "link": "https://www.woshipm.com/chuangye/6457154.html",
     "date": "",
     "img": "",
     "src": "人人都是产品经理"
    },
    {
-    "title": "AI演员批量上岗，短剧“去肉身化”革命来了",
-    "link": "https://www.woshipm.com/ai/6456189.html",
+    "title": "AI正在深度影响互联网职场",
+    "link": "https://www.woshipm.com/ai/6457147.html",
     "date": "",
     "img": "",
     "src": "人人都是产品经理"
    },
    {
-    "title": "对话诺亦腾CEO戴若犁：具身智能的数据采集是门好生意吗？",
-    "link": "https://www.woshipm.com/embodied/6456049.html",
+    "title": "豆包工作实测：从0到1搭建飞书个人客服",
+    "link": "https://www.woshipm.com/evaluating/6457139.html",
     "date": "",
     "img": "",
     "src": "人人都是产品经理"
    },
    {
-    "title": "开源模型们不想让所有人都免费使用了",
-    "link": "https://www.woshipm.com/ai/6456062.html",
+    "title": "社交网络之王的陨落：MySpace如何从120亿估值跌到1美元",
+    "link": "https://www.woshipm.com/it/6457130.html",
     "date": "",
     "img": "",
     "src": "人人都是产品经理"
    },
    {
-    "title": "Flova和LibTV还在互呛，字节MiniMax已经下场",
-    "link": "https://www.woshipm.com/ai/6456039.html",
+    "title": "很少有人想到，具身智能的寒武纪爆发，是由一只鸭子开始的",
+    "link": "https://www.woshipm.com/embodied/6457127.html",
     "date": "",
     "img": "",
     "src": "人人都是产品经理"
    },
    {
-    "title": "索尼Walkman：一个时代的王者，如何被自己“杀死”",
-    "link": "https://www.woshipm.com/it/6456013.html",
+    "title": "workbuddy每天自动签到领取100 积分，攻略来了！",
+    "link": "https://www.woshipm.com/ai/6457232.html",
     "date": "",
     "img": "",
     "src": "人人都是产品经理"
    },
    {
-    "title": "你的播客，已由AI代听",
-    "link": "https://www.woshipm.com/ai/6456072.html",
+    "title": "AI互联网日报：字节跳动推迟豆包2.2、华为云发布病理大模型、小米实测续航1230公里",
+    "link": "https://www.woshipm.com/ai/6457223.html",
     "date": "",
     "img": "",
     "src": "人人都是产品经理"
    },
    {
-    "title": "让搜索从“找关键词”到“懂你所需”——用WorkBuddy快速搭建AI智能搜索应用",
-    "link": "https://www.woshipm.com/open/6457608.html",
+    "title": "Plaud发布AI耳机：穿戴设备讲了这么多年，这次进步在哪？",
+    "link": "https://www.woshipm.com/embodied/6457119.html",
+    "date": "",
+    "img": "",
+    "src": "人人都是产品经理"
+   },
+   {
+    "title": "面试了200个应届生后，我发现：有没有潜力，只看这4个细节",
+    "link": "https://www.woshipm.com/zhichang/6457115.html",
+    "date": "",
+    "img": "",
+    "src": "人人都是产品经理"
+   },
+   {
+    "title": "关于微信公众号的“贴图”，你想知道的都在这里了",
+    "link": "https://www.woshipm.com/it/6456329.html",
+    "date": "",
+    "img": "",
+    "src": "人人都是产品经理"
+   },
+   {
+    "title": "把 FaZe 做上市后，他又去 YC 创业：让 120家餐厅按月“买网红”",
+    "link": "https://www.woshipm.com/chuangye/6457101.html",
+    "date": "",
+    "img": "",
+    "src": "人人都是产品经理"
+   },
+   {
+    "title": "实测3大 Flash 模型，谁是真正的斩杀线？",
+    "link": "https://www.woshipm.com/evaluating/6457035.html",
+    "date": "",
+    "img": "",
+    "src": "人人都是产品经理"
+   },
+   {
+    "title": "Anthropic 写给 AI Native 团队的完整开发手册",
+    "link": "https://www.woshipm.com/ai/6456809.html",
+    "date": "",
+    "img": "",
+    "src": "人人都是产品经理"
+   },
+   {
+    "title": "从“找到搭子”到“按约成行”：我如何构思一款留学生旅行 Agent",
+    "link": "https://www.woshipm.com/pd/6456438.html",
+    "date": "",
+    "img": "",
+    "src": "人人都是产品经理"
+   },
+   {
+    "title": "拼多多断流了怎么办",
+    "link": "https://www.woshipm.com/share/6457675.html",
+    "date": "",
+    "img": "",
+    "src": "人人都是产品经理"
+   },
+   {
+    "title": "AI Coding了一个业务使用的小工具，但成功上线后我却并没有很开心",
+    "link": "https://www.woshipm.com/ai/6457524.html",
+    "date": "",
+    "img": "",
+    "src": "人人都是产品经理"
+   },
+   {
+    "title": "一边闭店转让，一边装修进场，民营诊所大洗牌",
+    "link": "https://www.woshipm.com/share/6374701.html",
+    "date": "",
+    "img": "",
+    "src": "人人都是产品经理"
+   },
+   {
+    "title": "YAML 契约：设计意图的接口定义，编译即规则",
+    "link": "https://www.woshipm.com/ai/6457627.html",
     "date": "",
     "img": "",
     "src": "人人都是产品经理"
